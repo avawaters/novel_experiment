@@ -1,5 +1,5 @@
 // Loads jsPsych
-var jsPsych = init.jsPsych({});
+var jsPsych = initJsPsych({});
 
 // Timeline that holds javascript variables (instructioins, stimuli) to appear in chronological order 
 var timeline = [];
@@ -7,7 +7,7 @@ var timeline = [];
 var test_stimuli = [version_X, version_Y, version_Z];
 
 // Randomly chooses version the subject gets
-var versionNum = getRandomInt(3);
+var versionNum =  jsPsych.randomization.sampleWithoutReplacement([0, 1, 2], 1)[0];
 console.log(versionNum);
 
 // Welcome message
@@ -33,43 +33,66 @@ var instructions2 = {
     choice: [" "],
 };
 
+var instructions = {
+    timeline: [instructions1, instructions2],
+};
+
+timeline.push(instructions);
 
 
 // Initializes counter to run through each scenario
 var i = 0;
 
-var trial = {
-    type: jsPsychSurvey,
-    pages: [
-        [
-            {
-                type: 'html',
-                prompt: "<scenario>",
-            },
-            {
-                type: 'multi-choice',
-                prompt: "<question>",
-                name: YesNo,
-                options: ['yes', 'no'],
-                required: true,
-            },
-            {
-                type: 'text',
-                prompt: "Explain your answer:",
-                name: Explanation,
-                required: true,
-            }
-        ]
-    ],
+var trial_loop = {
+    timeline: [
+        {
+            type: jsPsychSurvey,
+            pages: [
+                [
+                    {
+                        type: 'html',
+                        prompt: jsPsych.timelineVariable("scenario"),
+                    },
+                    {
+                        type: 'multi-choice',
+                        prompt: jsPsych.timelineVariable("question"),
+                        name: 'YesNo',
+                        options: ['yes', 'no'],
+                        required: true,
+                    },
+                    {
+                        type: 'text',
+                        prompt: "Explain your answer:\n",
+                        name: 'Explanation',
+                        required: true,
+                    }
+                ]
+            ],
+        }
+    ]
 };
 
 var experiment = {
-    timeline: [trial],
+    timeline: [trial_loop],
     timeline_variables: test_stimuli[versionNum]
+};
 
+timeline.push(experiment);
+
+// Debriefs the participant
+var debrief = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: "Thank you for participating in the experiment!\n If you'd like to learn more about the purpose of this experiment and what we're measuring, press 'y'. Otherwise, feel free to exit the page.",
+    choice: ["y"],
+    /* on_start: function (data) {
+        version: 
+    }, */
 };
 
 
+timeline.push(debrief);
+
+jsPsych.run(timeline);
 
 
 

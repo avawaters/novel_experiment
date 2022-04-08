@@ -4,6 +4,17 @@ var jsPsych = initJsPsych({});
 // Timeline that holds javascript variables (instructioins, stimuli) to appear in chronological order 
 var timeline = [];
 
+// capturing info from Prolific
+var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
+var study_id = jsPsych.data.getURLVariable('STUDY_ID');
+var session_id = jsPsych.data.getURLVariable('SESSION_ID');
+
+jsPsych.data.addProperties({
+    subject_id: subject_id,
+    study_id: study_id,
+    session_id: session_id
+});
+
 var test_stimuli = [version_x, version_y, version_z];
 
 // Randomly chooses version the subject gets and saves the data
@@ -15,30 +26,20 @@ jsPsych.data.addProperties({
 
 // RUNNING THE EXPERIMENT
 // Welcome message
-var welcome = {
+/*var welcome = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: "<p>Welcome to the experiment!</p>",
     choice: "NO_KEYS",
     trial_duration: 3000,
   };
   
-timeline.push(welcome);
+timeline.push(welcome);*/
   
 // Instructions
-var instructions1 = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: "You will be presented with 9 scenarios, followed by 2 comprehension questions.\nPlease read each scenario carefully.\n\nHit the space bar to continue.",
-    choice: [" "],
-};
-
-var instructions2 = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: "After reading each scenario, you will be asked to answer a yes/no question and a short open answer question.\nYou will have to do these steps until all scenarios and questions have been completed.\n\nTo start the experiment, hit the space bar.",
-    choice: [" "],
-};
-
 var instructions = {
-    timeline: [instructions1, instructions2],
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: "<p>In this experiment, you will be presented with 9 scenarios, which you must read carefully.</p><p>After reading each scenario, you will be prompted two comprehension questions: a multiple choice question and a brief open answer question. You will be required to answer both questions for every scenario, meaning 18 questions in total.</p><p>To begin the experiment, hit the space bar.</p>",
+    choice: [" "],
 };
 
 timeline.push(instructions);
@@ -99,12 +100,13 @@ timeline.push(save_server_data);
 // Debriefs the participant
 var debrief = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: "Thank you for participating in the experiment!\n If you'd like to learn more about the purpose of this experiment and what we're measuring, press 'y'. Otherwise, press 'n'.",
+    stimulus: "Thank you for participating in the experiment!\n If you'd like to learn more about the purpose of this experiment and what we're measuring, press 'y'.<p>Otherwise, <a href='https://app.prolific.co/submissions/complete?cc=8A3B5E88'>click here to return to Prolific and complete the study</a>.</p>",
 };
 
 var full_debrief = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: "The main question being asked in this study is how the amount of privileged information provided in one perspective (level of embeddedness) affects projecting information to uninformed (other) perspectives. With each scenario, participants were shown one out of three levels of embeddedness: least embedded, somewhat embedded, and most embedded.\nThe main dependent variable being measured, which will be compared between each level of embeddedness, is the frequency with which participants overproject the privileged knowledge of one character by attributing it to another character. This will be measured by the participants' answers to yes/no questions, which will be consistent with either the privileged knowledge of one character or the limited knowledge of the other.",
+    stimulus: "The main question being asked in this study is how the amount of privileged information provided in one perspective (level of embeddedness) affects projecting information to uninformed (other) perspectives. With each scenario, participants were shown one out of three levels of embeddedness: least embedded, somewhat embedded, and most embedded.\nThe main dependent variable being measured, which will be compared between each level of embeddedness, is the frequency with which participants overproject the privileged knowledge of one character by attributing it to another character. This will be measured by the participants' answers to yes/no questions, which will be consistent with either the privileged knowledge of one character or the limited knowledge of the other.<p><a href='https://app.prolific.co/submissions/complete?cc=8A3B5E88'>Click here to return to Prolific and complete the study</a>.</p>",
+    choices: "NO_KEYS",
 }
 
 var if_full_debrief = {

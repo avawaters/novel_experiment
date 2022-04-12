@@ -4,7 +4,7 @@ var jsPsych = initJsPsych({});
 // Timeline that holds javascript variables (instructioins, stimuli) to appear in chronological order 
 var timeline = [];
 
-// capturing info from Prolific
+// Captures info from Prolific
 var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
 var study_id = jsPsych.data.getURLVariable('STUDY_ID');
 var session_id = jsPsych.data.getURLVariable('SESSION_ID');
@@ -20,25 +20,16 @@ var test_stimuli = [version_x, version_y, version_z];
 // Randomly chooses version the subject gets and saves the data
 var versionNum = jsPsych.randomization.sampleWithoutReplacement([0, 1, 2], 1)[0];
 
+// Adds version number to data frame
 jsPsych.data.addProperties({
     version: versionNum,
 });
 
-// RUNNING THE EXPERIMENT
-// Welcome message
-/*var welcome = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: "<p>Welcome to the experiment!</p>",
-    choice: "NO_KEYS",
-    trial_duration: 3000,
-  };
-  
-timeline.push(welcome);*/
-  
+/* RUNNING THE EXPERIMENT */
 // Instructions
 var instructions = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: "<p>In this experiment, you will be presented with 9 scenarios, which you must read carefully.</p><p>After reading each scenario, you will be prompted two comprehension questions: a multiple choice question and a brief open answer question. You will be required to answer both questions for every scenario, meaning 18 questions in total.</p><p>To begin the experiment, hit the space bar.</p>",
+    stimulus: "<p>In this experiment, you will be presented with 8 scenarios, which you must read carefully.</p><p>After reading each scenario, you will be prompted two comprehension questions: a multiple choice question and a brief open answer question. You will be required to answer both questions for every scenario, meaning 16 questions in total.</p><p>To begin the experiment, hit the space bar.</p>",
     choice: [" "],
 };
 
@@ -109,6 +100,7 @@ var full_debrief = {
     choices: "NO_KEYS",
 }
 
+// Gives participant option of getting full debrief
 var if_full_debrief = {
     timeline: [full_debrief],
     conditional_function: function () {

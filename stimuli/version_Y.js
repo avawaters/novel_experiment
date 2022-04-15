@@ -33,18 +33,18 @@ var version_y = [
    "scenario": "Jeremy and Spencer are brothers who are both in elementary school. They frequently get into serious fights, but Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person. One day Jeremy and Spencer get into a heated argument in front of Jeremy's classmate, David. Later, in an assignment for Jeremy and David's class, Jeremy has to write a letter to a classmate he does not know very well yet, and he chooses David. In his letter to David, he writes that 'Jeremy is the best brother ever.'",
    "level": "a",
    "id": "6a",
-   "mc_question": "Do you think Eric would have interpreted Phillip's note as sincere or sarcastic when he complimented his jacket?"
- },
+   "mc_question": "Do you think that David believes that he is being sincere or sarcastic?" 
+  },
  {
    "scenario": "James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person. During a conversation over text, Ana's friend Ken, who she hasn't talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person.",
    "level": "a",
    "id": "7a",
-   "mc_question": "Do you think the person receiving Jeremy's letter believes that he is being sincere or sarcastic?"
- },
+   "mc_question": "Do you think that Ken would interpret Ana's text as sincere or sarcastic? "
+  },
  {
    "scenario": "May and her new friend Kate went on a long road trip together over the summer. To help pass the time, they spent most of their nights talking and playing games, and quickly got to know each other better. Halfway through their journey, in a moment of weakness and vulnerability, May shared a deeply personal story from her childhood. Sensing that the mood was getting sentimental, Kate shared some of her own hardships that she had to overcome. As the two of them bonded over these stories, May began to fall in love. She planned to wait until the very end of the trip to confess her feelings for Kate, but she realized just as she was about to confess that Kate was already in a relationship. May's feelings about the entire trip changed drastically after this happened, and for the next few weeks she tried hard not to think about it. Shortly after the trip, May's friend Elizabeth asked her over text what she thought of the trip, and May replied, 'It was nice.'",
    "level": "b",
    "id": "8b",
-   "mc_question": "Do you think that James would interpret Ana's text as sincere or sarcastic?"
- }
+   "mc_question": "Do you think that Elizabeth would have interpreted May's text as sincere or sarcastic?" 
+  }
 ]

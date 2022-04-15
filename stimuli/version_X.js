@@ -33,18 +33,18 @@ var version_x = [
    "scenario": "Jeremy and Spencer are brothers who are both in elementary school. They frequently get into serious fights, but Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person. In between their arguments, the two of them often play sports together and listen to the same songs. They would sometimes spend hours playing outside when it snowed, building snowmen and having snowball fights. One day Jeremy and Spencer get into a heated argument in front of Jeremy's classmate, David. Later, in an assignment for Jeremy and David's class, Jeremy has to write a letter to a classmate he does not know very well yet, and he chooses David. In his letter to David, he writes that 'Jeremy is the best brother ever.'",
    "level": "c",
    "id": "6c",
-   "mc_question": "Do you think Eric would have interpreted Phillip's note as sincere or sarcastic when he complimented his jacket?"
- },
+   "mc_question": "Do you think that David believes that he is being sincere or sarcastic?" 
+  },
  {
    "scenario": "James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person. Even though she has moved on to someone else, Ana still thinks fondly of James, and considers him a good friend. During a conversation over text, Ana's friend Ken, who she hasn't talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person.",
    "level": "b",
    "id": "7b",
-   "mc_question": "Do you think the person receiving Jeremy's letter believes that he is being sincere or sarcastic?"
- },
+   "mc_question": "Do you think that Ken would interpret Ana's text as sincere or sarcastic? "
+  },
  {
    "scenario": "May and her new friend Kate went on a long road trip together over the summer. To help pass the time, they spent most of their nights talking and playing games, and quickly got to know each other better. During the trip, May realized that she was developing a crush on Kate, and planned to confess to her at the end of the trip. However, she realized just as she was about to confess that Kate was already in a relationship. May's feelings about the entire trip changed drastically after this happened, and for the next few weeks she tried hard not to think about it. Shortly after the trip, May's friend Elizabeth asked her over text what she thought of the trip, and May replied, 'It was nice.'",
    "level": "a",
    "id": "8a",
-   "mc_question": "Do you think that James would interpret Ana's text as sincere or sarcastic?"
- }
+   "mc_question": "Do you think that Elizabeth would have interpreted May's text as sincere or sarcastic?" 
+   }
 ]

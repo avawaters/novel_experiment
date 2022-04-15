@@ -33,7 +33,7 @@ var version_z = [
    "scenario": "Jeremy and Spencer are brothers who are both in elementary school. They frequently get into serious fights, but Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person. In between their arguments, the two of them often play sports together and listen to the same songs. One day Jeremy and Spencer get into a heated argument in front of Jeremy's classmate, David. Later, in an assignment for Jeremy and David's class, Jeremy has to write a letter to a classmate he does not know very well yet, and he chooses David. In his letter to David, he writes that 'Spencer is the best brother ever.'",
    "level": "b",
    "id": "6b",
-   "mc_question": "Do you think that David believes that he is being sincere or sarcastic?" 
+   "mc_question": "Do you think that David believes that Jeremy is being sincere or sarcastic?" 
   },
  {
    "scenario": "James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person. Even though she has moved on to someone else, Ana still thinks fondly of James, and considers him a good friend. She had even planned his most recent birthday party and frequently asks him for advice during difficult situations. During a conversation over text, Ana's friend Ken, who she hasn't talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person.",

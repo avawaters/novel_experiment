@@ -27,8 +27,8 @@ var version_y = [
    "scenario": "Phillip is the manager of a fashion magazine and is in the process of interviewing candidates for a position in the company. His last candidate for that day, Eric, is wearing a jacket that clashes horribly with the rest of his outfit. As Eric sits down in the chair across from him, Phillip reads the label on the jacket and realizes that it is from a brand that has been in an ongoing conflict with his magazine for years ever since he had refused to feature any of their clothes in one of the editions. Phillip is suddenly reminded of a loud, intense argument that he had with the boss of this brand a few months prior. Phillip scoffs to himself under his breath, but is polite and friendly throughout the interview. Later, when Eric sends Phillip a thank you note, Phillip mentions that he really liked Eric's jacket in his written reply.",
    "level": "c",
    "id": "5c",
-   "mc_question": "Do you think Oliver would interpret Noah's comment as sincere or sarcastic?"
- },
+   "mc_question": "Do you think Eric would have interpreted Phillip's note as sincere or sarcastic when he complimented his jacket?"
+  },
  {
    "scenario": "Jeremy and Spencer are brothers who are both in elementary school. They frequently get into serious fights, but Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person. One day Jeremy and Spencer get into a heated argument in front of Jeremy's classmate, David. Later, in an assignment for Jeremy and David's class, Jeremy has to write a letter to a classmate he does not know very well yet, and he chooses David. In his letter to David, he writes that 'Jeremy is the best brother ever.'",
    "level": "a",

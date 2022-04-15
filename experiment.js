@@ -91,7 +91,7 @@ timeline.push(save_server_data);
 // Debriefs the participant
 var debrief = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: "Thank you for participating in the experiment!\n If you'd like to learn more about the purpose of this experiment and what we're measuring, press 'y'.<p>Otherwise, <a href='https://app.prolific.co/submissions/complete?cc=8A3B5E88'>click here to return to Prolific and complete the study</a>.</p>",
+    stimulus: "Thank you for participating in the experiment!\n If you'd like to learn more about the purpose of this experiment and what we're measuring, press 'y'.<p>Otherwise, <a href='https://app.prolific.co/submissions/complete?cc=9231C938'>click here to return to Prolific and complete the study</a>.</p>",
 };
 
 var full_debrief = {

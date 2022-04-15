@@ -40,6 +40,7 @@ var trial_loop = {
     timeline: [
         {
             type: jsPsychSurvey,
+            button_label_finish: "Next",
             pages: [
                 [
                     {
@@ -51,7 +52,7 @@ var trial_loop = {
                         prompt: jsPsych.timelineVariable("mc_question"),
                         name: 'multiQuestion',
                         options: ["sincere", "sarcastic"],
-                        required: true,
+                        required: true
                     },
                     {
                         type: 'text',

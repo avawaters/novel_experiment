@@ -1,0 +1,98 @@
+---
+title: "Effect of Narrative Embeddedness on Information Projection"
+output: html_notebook
+---
+# Introduction
+```{r load libraries, include=FALSE}
+  library(jsonlite)
+  library(dplyr)
+  library(tidyr)
+  library(ggplot2)
+  library(ez)
+  library(stringr)
+```
+
+```{r load experimental data, include=FALSE}
+  data.files <- list.files("data", pattern=".json", full.names=TRUE)
+  data <- lapply(data.files, function(filepath){
+    df <- fromJSON(filepath)}) %>% 
+    bind_rows() %>%
+    # keeps only subject responses
+    filter(trial_type=="survey") %>%
+    # pivots responses into own columns
+    unnest_wider(response) %>%
+    select(subject_id, version, multiQuestion, Explanation, question_id, embed_level)
+```
+
+Narration and the power of perspective have incredible grip over humans. In fictitious literature, they transport us into an imaginatory world and can make us feel completely drowned in the book's universe. We often meld with the narrator or protagonist's point of view, sometimes forgetting what experiences and thoughts are our own. This inheritance of information from a specific perspective can sometimes limit us in what is known as the curse of knowledge, in which we struggle to take perspectives that do not have the privileged information we have (Tobin, 2018, p. 16). 
+
+Curse of knowledge seems to be at the opposite end of the spectrum from issues of theory of mind (ToM), which is used to reason others' behaviors by understanding they have their own minds, knowledge, beliefs, and desires that may conflict with those of the own individual's or with reality (Frith & Frith, 2005). ToM often develops in neurotypical children around the age of 5, and is often demarcated as having the ability to take different perspectives, and ultimately manipulate others' beliefs, thoughts, and actions by understanding how they differ from ours (Frith & Frith, 2005). Shaun Gallagher (2006) proposes this perspective-taking in a narrative way, rather than a theoretical, abstract way like ToM does. He recognizes that, in typically developing cases, people develop an intersubjective understanding in a way that exploits narrative competency such as seeing another's perspective in a social and differing context from their own. When people fully develop this ability, does having too much perspective (experiencing the curse of knowledge) start to become a cognitive hindrance? 
+
+Keysar (1994) conducted a study that explored whether participants always use their privvy, contextual information to inform their ToM, or how they think an uninformed character would react or respond. Specifically, he looked at how different mediums of communicating information to the characters (spoken versus written) in the short narratives affected how participants think the uninformed character would interpret the situation (Keysar, 1994). This manipulation is purely to see whether or not participants use "perspective-irrelevant" cues, or information that both characters do not have access to but the participant does, to inform their decision (Keysar, 1994). Keysar (1994) found that participants, in general, thought that uninformed characters would perceive sarcasm more when the privileged information indicated that the speaker was being sarcastic. This seems to support the curse of knowledge theory, as participants struggled to keep an objective perspective when asked about a perspective that did not have the same level of information.
+
+The current study is influenced by Keysar's (1994) experiment; the goal of this study is to explore how sarcasm may be interpreted under contexts in which the participant is subject to differing levels of embeddedness, which refers to the extent to which the participant is immersed in the perspective of the character with privileged information. We predict that with the curse of knowledge, and narrative being a powerful tool to take another's perspective, that participants will tend to privileged (perspective-irrelevant) information when determining if an uniformed character will interpret an utterance as sarcasm or not. 
+
+# Methods
+## Participants
+```{r count participants, include=FALSE}
+  n.subjects <- data %>%
+  pull(subject_id) %>%
+  unique() %>%
+  length()
+```
+The experiment had `r n.subjects` subjects. We pre-registered to have 100 participants, calculated using the budget we had and the amount paid to each subject. The criterion to participate was to be fluent in English. Participants were recruited using an online platform Prolific, which is a website where people can participate in large data-collection studies for monetary compensation. Data collection occurred for approximately 1 week. 
+
+## Materials
+```{r count version occurence, include=FALSE}
+# version X count
+n.version.x <- data %>%
+  filter(version==0) %>%
+  pull(subject_id) %>%
+  unique() %>%
+  length()
+
+# version Y count
+n.version.y <- data %>%
+  filter(version==1) %>%
+  pull(subject_id) %>%
+  unique() %>%
+  length()
+
+# version Z count
+n.version.z <- data %>%
+  filter(version==2) %>%
+  pull(subject_id) %>%
+  unique() %>%
+  length()
+```
+
+Because this was a virtual experiment, participants only needed a laptop to partake in the study. Eight unique scenarios were developed by the researchers. The scenarios were centered around the reader having privy information that a character in the story did not know. For each scenario, three different versions were written, totaling in 24 scenarios overall. Level "A" had the lowest level of embeddedness, with the least amount of context. Level "B" had a moderate level of embeddedness, with more detail than A to give the reader more context about the scenario. Level "C" had the highest level of embeddedness, giving the most detail and perspective of one of the characters. An example scenario and its levels are given below:
+
+
+Level A: James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person.  During a conversation over text, Ana’s friend Ken, who she hasn’t talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person. 
+
+Level B: James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person. Even though she has moved on to someone else, Ana still thinks fondly of James, and considers him a good friend. During a conversation over text, Ana’s friend Ken, who she hasn’t talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person. 
+
+Level C: James and Ana broke up a year ago, but they still talk to each other somewhat regularly. Despite the fact that it is common knowledge that their relationship ended with a very dramatic fight, Ana still genuinely thinks that James is a good person. Even though she has moved on to someone else, Ana still thinks fondly of James, and considers him a good friend. She had even planned his most recent birthday party and frequently asks him for advice during difficult situations. During a conversation over text, Ana’s friend Ken, who she hasn’t talked to since her breakup with James, asks her what she really thinks of James. She responds that she thinks he is a great person.
+
+
+Once all the variations were developed, three versions of the experiment were quasi-randomly generated. Scenarios 1-8 appeared in numerical order for all three versions, but the level of embeddedness was randomly chosen using a random number generator. Each version featured three scenarios at one level, three scenarios at another level, and two scenarios at the remaining one. The amount of times a level appeared across all three versions was balanced, so that each version's two-scenario level was different from the others. Randomizing the scenario order did not seem necessary because the versions had slightly different variations for each scenario. Since no two versions had identical scenarios, ordering effect was not an issue. 
+
+Comprehension questions for every scenario were developed, focusing on how a character would interpret another character's actions or speech. These questions were always related to exclusive information that the participant had, probing at whether or not the participant would project their knowledge onto the perspective of the character who was interpreting another's behavior. They all asked whether or not the behavior would be The scenario given above corresponded to the question "Do you think that Ken would interpret Ana's text as sincere or sarcastic?"
+
+Participants were also prompted to "Explain [their] answer" below the comprehension question. Their responses would give insight on what information they used, or failed to use, to justify their decision. This question also served as an attention check, which determined whether or not the participant was actively engaged with the experiment. If they provided nonsensical or unreasonable explanations that were unrelated to the scenario or were extremely brief (i.e. "it was sarcasm"), then their data would be excluded.
+
+## Procedure
+Upon clicking the study link, participants were given instructions for the experiment. They were instructed to carefully read each scenario, as they would be answering two comprehension questions about it. The instructions reminded them that they could not continue with the experiment if they had not responded to both questions. After hitting the space bar to confirm that they had read and understood the instructions, the first scenario appeared. The scenario appeared above the two comprehension questions, with a button in the bottom right corner that said "Next". The first comprehension question was a multiple choice, with the two choices being "sarcastic" and "sincere". A text box below allowed them to explain as little or as much as they wanted to justify their answer. They could not continue until answers were provided for both questions. This process was repeated for all 8 scenarios. Following the last scenario, a thank you screen popped up. Should the participant want to learn more about the study, they were instructed to press the "y" key, which brought them to a debrief screen that explained the intent of the experiment. All participants were directed to complete the study and earn compensation by clicking a link that brought them back to Prolific. 
+
+To determine what version each participant received, a random number 0-2 was generated upon launching the experiment. This method was used since we could not track when the participants were doing the study and could not efficiently cycle through each version systematically. This random assignment, in theory, would have administered each version a third of the time. In actuality, version X was run `r n.version.x` times (`r n.version.x / n.subjects`%), version Y was given `r n.version.y` times (`r n.version.y / n.subjects`%), and version Z was issued `r n.version.z` times (`r n.version.z / n.subjects`%). While occurrence of version Z was much lower than expected and that of version Y was much higher than expected, no version appeared more than 50% of the time. 
+
+
+# References
+Frith, C., & Frith, U. (2005). Theory of mind. Current biology, 15(17), R644-R645.
+
+Gallagher, S. (2006). The narrative alternative to theory of mind. In R. Menary (Ed.), Radical enactivism: Intentionality, phenomenology and narrative: Focus on the philosophy of Daniel D. Hutto (pp. 223–229). John Benjamins Publishing Company. https://doi.org/10.1075/ceb.2.15gal
+
+Keysar B. (1994). The illusory transparency of intention: Linguistic perspective taking in text. Cognitive psychology, 26(2), 165–208. https://doi.org/10.1006/cogp.1994.1006
+
+Tobin, V. (2018). Elements of surprise: Our mental limits and the satisfactions of plot. Harvard University Press. 

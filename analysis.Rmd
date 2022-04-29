@@ -10,6 +10,10 @@ output: html_notebook
   library(ggplot2)
   library(ez)
   library(stringr)
+  library(lme4)
+  library(ggeffects)
+  #library(effects)
+  library(sjPlot)
 ```
 
 ```{r load experimental data, include=FALSE}
@@ -87,6 +91,46 @@ Upon clicking the study link, participants were given instructions for the exper
 
 To determine what version each participant received, a random number 0-2 was generated upon launching the experiment. This method was used since we could not track when the participants were doing the study and could not efficiently cycle through each version systematically. This random assignment, in theory, would have administered each version a third of the time. In actuality, version X was run `r n.version.x` times (`r n.version.x / n.subjects`%), version Y was given `r n.version.y` times (`r n.version.y / n.subjects`%), and version Z was issued `r n.version.z` times (`r n.version.z / n.subjects`%). While occurrence of version Z was much lower than expected and that of version Y was much higher than expected, no version appeared more than 50% of the time. 
 
+
+# Results
+
+```{r Analysis}
+converted.data <- data %>%
+  mutate(story = substr(question_id, 1,1)) %>%
+  mutate(story = factor(story)) %>%
+  mutate(actual = if_else(story %in% c(1, 3, 5, 8), "sincere", "sarcastic")) %>%
+  mutate(correct = if_else(multiQuestion == actual, 0, 1))
+
+mixed.lmer <- lmer(correct ~ embed_level + (embed_level|subject_id) + (1|question_id), data = converted.data)
+
+mixed.lmer
+```
+
+```{r Graph Data}
+simple.graph <- converted.data %>%
+  group_by(embed_level) %>%
+  summarize(average_incorrect = mean(correct), sd = sd(correct)) %>%
+  mutate(embed_level = case_when(
+    embed_level == "a" ~ "least embedded",
+    embed_level == "b" ~ "somewhat embedded",
+    embed_level == "c" ~ "most embedded"
+  ))
+
+ggplot(simple.graph, aes(embed_level, average_incorrect)) +
+  geom_pointrange(aes(ymin = average_incorrect-sd, ymax = average_incorrect+sd)) +
+  labs(x = "Level of Embeddedness", y = "Average % of Questions Answered Incorrectly")
+```
+
+```{r Graph Linear Model attempt}
+prediction.df <- ggpredict(mixed.lmer, terms = c("embed_level"))  
+
+ggplot(prediction.df) + 
+   geom_line(aes(x = x, y = predicted, group=1)) +
+   geom_ribbon(aes(x = x, ymin = predicted - std.error, ymax = predicted + std.error), fill = "lightgrey", alpha = 0.5) + 
+   geom_point(data = data.for.graph, aes(x = embed_level, y = incorrect, color = story)) + 
+   labs(x = "Embeddedness Level", y = "Inorrect") + 
+   theme_minimal()
+```
 
 # References
 Frith, C., & Frith, U. (2005). Theory of mind. Current biology, 15(17), R644-R645.

@@ -21,7 +21,7 @@ var version_y = [
    "scenario": "Margaret isn't exactly a dog person; she had a terrible experience with a bulldog as a child when it chased her down the street for no reason, and she has a particularly strong aversion to bulldogs as a result. She and her new coworker, Julia, are chatting via iMessage when Julia sends Margaret a photo of her puppy, which is a bulldog. Most of Julia's friends think her dog is very cute. Margaret responds, 'Your dog is so scary!'",
    "level": "b",
    "id": "4b",
-   "mc_question": "Do you think Julia would interpret Margaret's questions as sincere or sarcastic?"
+   "mc_question": "Do you think Julia would interpret Margaret's response as sincere or sarcastic?"
  },
  {
    "scenario": "Phillip is the manager of a fashion magazine and is in the process of interviewing candidates for a position in the company. His last candidate for that day, Eric, is wearing a jacket that clashes horribly with the rest of his outfit. As Eric sits down in the chair across from him, Phillip reads the label on the jacket and realizes that it is from a brand that has been in an ongoing conflict with his magazine for years ever since he had refused to feature any of their clothes in one of the editions. Phillip is suddenly reminded of a loud, intense argument that he had with the boss of this brand a few months prior. Phillip scoffs to himself under his breath, but is polite and friendly throughout the interview. Later, when Eric sends Phillip a thank you note, Phillip mentions that he really liked Eric's jacket in his written reply.",

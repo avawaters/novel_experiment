@@ -21,7 +21,7 @@ var version_z = [
    "scenario": "Margaret isn't exactly a dog person. She had a terrible experience with a bulldog as a child when it chased her down the street for no reason, and she has a particularly strong aversion to bulldogs as a result. The bulldog ended up biting Margaret on her hand before its owner arrived to stop it. As a result, Margaret had to get the rabies vaccine at her doctor. Any kid would hate it when someone else injects a needle in their skin, let alone someone who just received her worst childhood trauma. Crying, yelling and sobbing as she finished receiving the vaccine, Margaret swore she'd hate all bulldogs for the rest of her life. One day, an adult Margaret and her new coworker, Julia, are chatting via iMessage when Julia sends Margaret a photo of her puppy, which is a bulldog. Most of Julia's friends think her dog is very cute. Margaret responds 'Your dog is so scary!'",
    "level": "c",
    "id": "4c",
-   "mc_question": "Do you think Julia would interpret Margaret's questions as sincere or sarcastic?"
+   "mc_question": "Do you think Julia would interpret Margaret's response as sincere or sarcastic?"
  },
  {
    "scenario": "Phillip is the manager of a fashion magazine and is in the process of interviewing candidates for a position in the company. His last candidate for that day, Eric, is wearing a jacket that clashes horribly with the rest of his outfit. Phillip scoffs to himself under his breath after seeing Eric walk into the room, but is polite and friendly throughout the interview. Later, when Eric sends Phillip a thank you note, Phillip mentions that he really liked Eric's jacket in his written reply.",

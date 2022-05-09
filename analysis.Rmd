@@ -94,7 +94,7 @@ To determine what version each participant received, a random number 0-2 was gen
 
 # Results
 
-```{r Analysis}
+```{r Analysis, include=FALSE}
 converted.data <- data %>%
   mutate(story = substr(question_id, 1,1)) %>%
   mutate(story = factor(story)) %>%
@@ -106,30 +106,32 @@ mixed.lmer <- lmer(correct ~ embed_level + (embed_level|subject_id) + (1|questio
 mixed.lmer
 ```
 
-```{r Graph Data}
+
+  Our data is summarized in Figure 1 below, displaying the average percentage of questions answered incorrectly for each embeddedness level. The pattern displayed is unexpected; while one would expect the lowest embedded and highest embedded levels to be at both extremes in terms of average incorrect answers, which would thus form a linear pattern on the graph, the averages instead form an irregular non-linear pattern, with the "somewhat embedded" category with the lowest y-value.  
+  Due to the theory behind the curse of knowledge, it is reasonable to expect the "most embedded" category to lead to the most incorrect answers. However, the pattern of the results of the other two categories do not quite fit in to the theory that more embeddedness leads to more curse-of-knowledge errors. 
+
+```{r Graph Data, echo=FALSE}
 simple.graph <- converted.data %>%
   group_by(embed_level) %>%
-  summarize(average_incorrect = mean(correct), sd = sd(correct)) %>%
+  summarize(average_incorrect = mean(correct), se = sd(correct)/sqrt(n())) %>%
   mutate(embed_level = case_when(
     embed_level == "a" ~ "least embedded",
     embed_level == "b" ~ "somewhat embedded",
     embed_level == "c" ~ "most embedded"
-  ))
+  )) #%>%
+  #mutate(embed_level = factor(embed_level))
 
-ggplot(simple.graph, aes(embed_level, average_incorrect)) +
-  geom_pointrange(aes(ymin = average_incorrect-sd, ymax = average_incorrect+sd)) +
-  labs(x = "Level of Embeddedness", y = "Average % of Questions Answered Incorrectly")
+level_order = c("least embedded", "somewhat embedded", "most embedded")
+
+ggplot(simple.graph, aes(x = factor(embed_level, level = level_order), y = average_incorrect)) +
+  geom_pointrange(aes(ymin = average_incorrect-se, ymax = average_incorrect+se)) +
+  labs(x = "Level of Embeddedness", y = "Average % of Questions Answered Incorrectly") 
 ```
 
-```{r Graph Linear Model attempt}
-prediction.df <- ggpredict(mixed.lmer, terms = c("embed_level"))  
+  The multiple-choice responses themselves were analyzed using mixed-effects regression with a fixed effect of embeddedness and random intercepts for subject and item to compare the responses between the three conditions. This model can be seen below in Figure 2. 
 
-ggplot(prediction.df) + 
-   geom_line(aes(x = x, y = predicted, group=1)) +
-   geom_ribbon(aes(x = x, ymin = predicted - std.error, ymax = predicted + std.error), fill = "lightgrey", alpha = 0.5) + 
-   geom_point(data = data.for.graph, aes(x = embed_level, y = incorrect, color = story)) + 
-   labs(x = "Embeddedness Level", y = "Inorrect") + 
-   theme_minimal()
+```{r Show Mixed Regression model, echo=FALSE}
+summary(mixed.lmer)
 ```
 
 # References

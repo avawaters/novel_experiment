@@ -99,7 +99,7 @@ converted.data <- data %>%
   mutate(story = substr(question_id, 1,1)) %>%
   mutate(story = factor(story)) %>%
   mutate(actual = if_else(story %in% c(1, 3, 5, 8), "sincere", "sarcastic")) %>%
-  mutate(correct = if_else(multiQuestion == actual, 0, 1))
+  mutate(correct = if_else(multiQuestion == actual, 0, 1)) # 0 == correct, 1 == incorrect -> sum of this column is number of incorrect answers
 
 mixed.lmer <- lmer(correct ~ embed_level + (embed_level|subject_id) + (1|question_id), data = converted.data)
 
@@ -128,7 +128,7 @@ ggplot(simple.graph, aes(x = factor(embed_level, level = level_order), y = avera
   labs(x = "Level of Embeddedness", y = "Average % of Questions Answered Incorrectly") 
 ```
 
-  The multiple-choice responses themselves were analyzed using mixed-effects regression with a fixed effect of embeddedness and random intercepts for subject and item to compare the responses between the three conditions. This model can be seen below in Figure 2. 
+  The multiple-choice responses themselves were analyzed using mixed-effects regression with a fixed effect of embeddedness and random intercepts for subject and item to compare the responses between the three conditions. This model can be seen below in Figure 2. As seen in the random effects section, individual subjects and items did not lead to much variance in the data. Regarding the fixed effect, level of embeddedness, the same pattern can be seen here as in the graph, where, if treating the lowest level of embeddedness as the baseline, the "somewhat embedded" level has a negative effect on number of incorrect response, while the "most embedded" level has a positive effect. This is, again, rather irregular; since both levels are more embedded than the baseline, their effects should also both be in the same direction. However, it is also worth noting that neither of these effects in variance are very significant, meaning the fixed effect of level of embeddedness had little to no effect on the data for the directions of their effects to carry much meaning.
 
 ```{r Show Mixed Regression model, echo=FALSE}
 summary(mixed.lmer)

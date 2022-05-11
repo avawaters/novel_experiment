@@ -1,0 +1,801 @@
+subject,Particular Scenario No#,answer,explanation,version,embed_level,question_id,category: Lily (2+3),Zach (3+4),Yuchen (4+1),Mira (1+2),code
+1,1,sincere,It depends on other interactions between them but she says that she loves it - the omg could be saracastic though,1,b,1b,,,D+I,I,I
+1,2,sincere,It's a funny answer not sarcastic,1,c,2c,,,D,O,D
+1,3,sincere,she's trying to protect his feelings,1,a,3a,,,D+I,S,S
+1,4,sarcastic,although Margaret is scared of dogs the puppy is small and so not scary,1,b,4b,,,I,O,O
+1,5,sincere,Although intended as sarcastic Eric wouldn't have known about the conflict so will have interpreted as sincere,1,c,5c,,,R,R,R
+1,6,sarcastic,As the argument has been Davids only exposure to the brothers it will probably be interpreted as sarcastic,1,a,6a,,,R,R,R
+1,7,sincere,Ana still thinks he is a good person,1,a,7a,,,S,S,S
+1,8,sincere,She still had a nice trip even though it didn't turn out the way she'd hoped,1,b,8b,,,I,S,S
+2,9,sincere,"They care about each other, it sounded sincere and Olivia wouldn't have reason to believe it sarcastic.",2,a,1a,,,D+I,R,R
+2,10,sincere,This is neither sincere or sarcastic. It's hyperbole.,2,b,2b,,,O,D,O
+2,11,sincere,He doesn't know he used salt by accident.,2,b,3b,,,R,R,R
+2,12,sarcastic,"Most people think he's cute, so Julia would read it as a joke and she's new, she doesn't know Margaret that well.",2,c,4c,,,D+I,R,R
+2,13,sincere,"Not entirely sure though, it depends on if Eric noted the sotto voce scoff.",2,a,5a,,,O,R,R
+2,14,sarcastic,"He saw them fight, so he has insight others don't, which Jeremy knows.",2,b,6b,,,R,R,R
+2,15,sarcastic,"Ken doesn't know all of what's gone on since their break up, but presumably knows (common knowledge that their relationship ended with ""a very dramatic fight"".",2,c,7c,,,R,R,R
+2,16,sincere,"Almost everything that happened here took place inside May's head, and wasn't articulated, so why would Elizabeth have reason to think it was sarcasm?",2,c,8c,,,R,R,R
+3,17,sincere,"Olivia can't read Alice's mind, so it doesn't come across as sarcastic.",0,c,1c,,,R,R,R
+3,18,sincere,It's not sarcastic it's hyperbole,0,a,2a,,,O,O,O
+3,19,sarcastic,"It seems sarcastic because of the reference to sweetness, which was missing due to the lack of sugar.",0,c,3c,,,D,D,D
+3,20,sarcastic,"Because puppies aren't typically seen as scary, so it seems more like a joke",0,a,4a,,,I,I,I
+3,21,sincere,"He didn't let on to Eric that he didn't like it, unlikely Eric would think otherwise",0,b,5b,,,R,R,R
+3,22,sarcastic,"David has just seen them have a heated fight, so it comes across sarcastically",0,c,6c,,,R,R,R
+3,23,sincere,"Tough to say, but not enough context to make it seem sarcastic",0,b,7b,,,I,R,R
+3,24,sarcastic,I think Elizabeth would get the impression May didn't want to talk about it.,0,a,8a,,,I,R,I
+4,25,sincere,it was over text and oliva provided no current context on her feelings regarding the haircut,2,a,1a,,,R,D,D
+4,26,sincere,nothing was said to imply sarcasm,2,b,2b,,,O,D,D
+4,27,sincere,"he wouldn't know that he messed up, so he would think she was sincere",2,b,3b,,,R,R,R
+4,28,sincere,maybe sarcastic? but probably sincere since she didn't indicate sarcasm,2,c,4c,,,O,D,O
+4,29,sincere,because he was polite during the interview,2,a,5a,,,I,O,O
+4,30,sarcastic,"he saw the fight, so he would know it was sarcastic",2,b,6b,,,R,R,R
+4,31,sincere,because she still contacts him regularly,2,c,7c,,,S,S,S
+4,32,sincere,elizabeth would not have known it was sarcastic,2,c,8c,,,O,R,R
+5,33,sincere,Olivia isn't to know that Alice is trying to branch out on her own so won't know the subtext to know that it's a sarcastic comment. She just thinks her friend is being supportive and loves it,0,c,1c,,,R,R,R
+5,34,sincere,While it's a metaphor and an exaggeration it still seems sincere. Although maybe to her partner who knows how much she's been struggling it may come off as sarcastic - this is a real 50/50 one,0,a,2a,,,I,R,R
+5,35,sincere,Since he hasn't realised that he's confused the white powders so he doesn't know that the cake is actually disgusting despite the message being sarcastic,0,c,3c,,,R,R,R
+5,36,sarcastic,Julia is just being friendly and sharing a picture of her dog and it's a new working relationship so probably thinks she's being tongue-in-cheek,0,a,4a,,,R,R,R
+5,37,sarcastic,Having it written in a reply from someone you don't know well at all seems like it could come off as sarcastic,0,b,5b,,,I,R,R
+5,38,sarcastic,The only thing David knows of their relationship is that Jeremy and Spencer have heated arguments and are brothers... the next thing he has a letter saying that he's the best brother ever. If David has a sibling of his own then maybe he'll understand that sibling relationships are up and down so think this to be sincere but not sure with the limited information,0,c,6c,,,R,R,R
+5,39,sarcastic,The last thing Ken knows about their relationship from Ana is that they had a very dramatic fight and broke up. If they don't know of their maintained friendship then they're bound to think that they really hate each other,0,b,7b,,,R,R,R
+5,40,sincere,Her trip seemed nice despite the crush and sad news about Kate on her part so it's a sincere message,0,a,8a,,,O,S,S
+6,41,sarcastic,She doesn't want her to have the same hairstyle,0,c,1c,,,S,S,S
+6,42,sincere,She is happy after hitting a PR,0,a,2a,,,S,S,S
+6,43,sincere,She is being nice because she doesn't want to hurt his feelings,0,c,3c,,,S,R,S
+6,44,sarcastic,Because people are ignorant to phobias,0,a,4a,,,I,O,O
+6,45,sarcastic,Was probably being bitchy,0,b,5b,,,I,O,O
+6,46,sarcastic,Because they have just fought,0,c,6c,,,S,R,R
+6,47,sincere,She considers him a good friend,0,b,7b,,,S,S,S
+6,48,sincere,"She had a good time, but is still trying to process her emotions ",0,a,8a,,,S,S,S
+7,49,sincere,no reason to doubt her,1,b,1b,,,O,O,O
+7,50,sincere,she seems pumped up,1,c,2c,,,O,S,S
+7,51,sincere,they've known eachother a long time,1,a,3a,,,O,O,O
+7,52,sarcastic,everyone else thinks it's cute and it's small,1,b,4b,,,O,R,R
+7,53,sarcastic,bad first impression with the scoffing,1,c,5c,,,S,I,R
+7,54,sincere,no reason to doubt him,1,a,6a,,,O,O,O
+7,55,sincere,why would she not be sincere if she wanted to,1,a,7a,,,O,S,O
+7,56,sincere,they'd bonded and gotten along well,1,b,8b,,,O,S,S
+8,57,sincere,Shes not being sarcastic shes just trying to be polite,1,b,1b,,,O,S,S
+8,58,sincere,Shes been trying to get better in the gym so it makes sense,1,c,2c,,,O,S,S
+8,59,sincere,if he doesnt know that he made mistakes he will think its sincere,1,a,3a,,,R,R,R
+8,60,sincere,Theres no indication that its a joke or sarcasm,1,b,4b,,,O,D,O
+8,61,sarcastic,If eric knows about the feud then he will realise its sarcastic,1,c,5c,,,R,I,R
+8,62,sincere,He might think jeremy isnt angry about the fight anymore,1,a,6a,,,I,I,I
+8,63,sarcastic,he might think its sarcastic because he knows they had a bad breakuo,1,a,7a,,,R,R,R
+8,64,sincere,She wouldnt be able to see her face or hear her tone so it would seem genuine,1,b,8b,,,D,D,D
+9,65,sincere,Her white lie is to prevent upset and is not sarcastic.,0,c,1c,,,S,S,S
+9,66,sincere,Humour is not sarcasm.,0,a,2a,,,O,O,O
+9,67,sincere,Making the cake was kind even if it tastes bad.,0,c,3c,,,O,O,O
+9,68,sincere,Some people are just sacred of dogs!,0,a,4a,,,O,O,O
+9,69,sincere,Eric has no reason to assume malice.,0,b,5b,,,R,R,R
+9,70,sarcastic,"David has seen a fight, and doesn't know the brother's historic good relationship.",0,c,6c,,,R,R,R
+9,71,sincere,Ken has no reason to believe Ana thinks James is unpleasant.,0,b,7b,,,R,R,R
+9,72,sincere,Elizabeth has no context to think otherwise.,0,a,8a,,,R,R,R
+10,73,sarcastic,"she is annoyed, but replies ""I llove it""",1,b,1b,,,S,S,S
+10,74,sincere,"she was in a good mood, she felt like she could do anything",1,c,2c,,,S,S,S
+10,75,sincere,"she's trying to make him feel good, even though he did werong",1,a,3a,,,S,S,S
+10,76,sincere,she doesnt like it end of,1,b,4b,,,N,S,N
+10,77,sarcastic,clearly didn't like it but its not Eric's fault,1,c,5c,,,S,S,S
+10,78,sincere,"they enjoy each others company, but get into fights, this doenst mean the dont like each ther",1,a,6a,,,O,S,S
+10,79,sincere,they clearly have mutual respect for weach other,1,a,7a,,,O,S,S
+10,80,sincere,she didn;t want to hurt her fellings,1,b,8b,,,S,S,S
+11,81,sincere,Even though she is annoyed its her best friend so she would probably still be being sincere even though shes not happy as to not upset her friend,1,b,1b,,,I,S,S
+11,82,sincere,Theres nothing here that could be sarcastic,1,c,2c,,,O,O,O
+11,83,sincere,Even though the cake wasn't good she doesn't want to hurt his feelings so is being sincere but lying,1,a,3a,,,S,S,S
+11,84,sincere,she's scared of dogs so is being truthful,1,b,4b,,,S,S,S
+11,85,sincere,He wouldn't know that Phillip didn't like his jacket so would think he was being sincere,1,c,5c,,,R,R,R
+11,86,sincere,The brothers have a good relationship otherwise so would probably think he was being sincere,1,a,6a,,,S,I,S
+11,87,sincere,Just because their relationship ended in a fight does not mean either one is a bad person and I think ken would know that and think she was being sincere,1,a,7a,,,I,I,I
+11,88,sincere,There's nothing there to suggest she was being sarcastic,1,b,8b,,,O,R,O
+12,89,sincere,As her best friend she wouldn't think her friend would be insincere with her,1,b,1b,,,I,R,R
+12,90,sarcastic,As Jane wouldn't have believed Catherine able to lift a cow she wouldn' have taken this as a sincere message,1,c,2c,,,R,R,R
+12,91,sincere,She wouldn't have wanted to hurt her friends feeling so has worded it in  way that seems sincere,1,a,3a,,,S,S,S
+12,92,sarcastic,"She may have believed that because everyone lse thinks her dog is cute, that MArgaret was being funny ",1,b,4b,,,R,R,R
+12,93,sarcastic,When someone sscoffs at you in an interview you don't necessarily believe they have a good opinion about something.,1,c,5c,,,R,I,I
+12,94,sarcastic,David had just witnessed him fall out wth his brother - potentially doesn't think that he is being sincere after witnessing that,1,a,6a,,,R,R,R
+12,95,sarcastic,"If its common knowledge that they had a big bust up and Ken hasn't spoken with her since, he may believe she is being sarcastic in her reply ",1,a,7a,,,R,R,R
+12,96,sincere,Would have no reason to believe otherwise as she wasn't on the trip and didn't understand the relationship.,1,b,8b,,,R,R,R
+13,97,sarcastic,Due to Alice feeling like Olivia has copied her style,0,c,1c,,,S,S,S
+13,98,sincere,As Catherine is feeling proud and excited,0,a,2a,,,S,S,S
+13,99,sincere,As Anastasia and Jack are best friends and she wouldn't want to hurt him,0,c,3c,,,S,S,S
+13,100,sincere,As Margaret does not like dogs particularly bulldogs it is likely that she would view the dog in this way,0,a,4a,,,S,S,S
+13,101,sincere,As Eric is unaware of the previous conversation and that it would be unprofessional for Phillip to mean it any other way,0,b,5b,,,R,R,R
+13,102,sarcastic,As David had witnessed the previous poor behaviour,0,c,6c,,,R,R,R
+13,103,sarcastic,As Ken is unaware of the ongoing friendship between Ana and James and only knows about the break up,0,b,7b,,,R,R,R
+13,104,sincere,Elizabeth doesn't know about Mays feelings,0,a,8a,,,R,R,R
+14,105,sincere,I would expect a good friend to not be critical of the new hairstyle.,1,b,1b,,,I,O,O
+14,106,sincere,If Jane is aware of her injury she would know Catherine would be pleased to regain her fitness.,1,c,2c,,,I,R,I
+14,107,sincere,"If Jack did not realize his error, he would not have context to assume Anastasia was being sarcastic.",1,a,3a,,,R,R,R
+14,108,sarcastic,Julia would not be aware of Margaret's aversion to dogs.,1,b,4b,,,R,R,R
+14,109,sincere,Eric would not have known the backstory behind Philip's loathing of his jacket.,1,c,5c,,,R,R,R
+14,110,sarcastic,David would have witnessed the fight and would expect the brothers to always be fighting.,1,a,6a,,,R,R,R
+14,111,sarcastic,"Given the circumstances of James and Ana's breakup, he would most likely believe she was being disingenuous.",1,a,7a,,,R,R,R
+14,112,sincere,"Elizabeth would not know the inner turmoil the trip had brewed in May, so she would probably take the comment at face value.",1,b,8b,,,R,R,R
+15,113,sincere,"she has been given no reason to believe alice would be being sarcastic, there are no emojis to show sarcasm",2,a,1a,,,D,D,D
+15,114,sincere,she has used an analogy but there is no sarcasm,2,b,2b,,,O,D,D
+15,115,sincere,"there is no sarcasm in her tone, she is either saying it is perfect because he made it and thats the way he is or to save hurting his feelings",2,b,3b,,,S,D,D
+15,116,sincere,she has a fear so she means what she is saying,2,c,4c,,,S,S,S
+15,117,sincere,"why would he think otherwise, there was no indication of his dislike when they met ",2,a,5a,,,R,O,R
+15,118,sarcastic,since they do not know each other well he may believe that jeremy hates spencer and thus believe this is sarcasm,2,b,6b,,,R,R,R
+15,119,sarcastic,most people do not remain frieds after a break up so this could easily be construed as sarcasm,2,c,7c,,,R,O,R
+15,120,sincere,i she did not know about may's change of heart so this would be the sort of answer she wuld expect following a nice trip,2,c,8c,,,R,R,R
+16,121,sincere,"They're lifelong friends. So Olivia is, reasonably, going to interpret the text as sincere. ",1,b,1b,,,I,R,R
+16,122,sincere,There's no need for Catherine to respond sarcastically. She sincerely feels like she could have done more - this is her way of stating that.,1,c,2c,,,I,S,S
+16,123,sincere,They're best friends. Anastasia wouldn't want to hurt her friend's feelings. Jack would take this comment at face value.,1,a,3a,,,I,R,R
+16,124,sarcastic,"Julia probably doesn't know that Margaret is terrified of bulldogs. so, she's going to interpret this as sarcastic since the majority of people have said it was cute. ",1,b,4b,,,R,R,R
+16,125,sincere,"Eric (probably) wouldn't have the background to realize that there was a conflict between the magazine and the maker of the jacket, so he's going to interpret it as sincere. ",1,c,5c,,,R,R,R
+16,126,sarcastic,"David only has limited experience with Jeremy and Spencer's relationship, so he'd base his belief on that one incident. Thus he's going to see this as sarcastic. ",1,a,6a,,,R,R,R
+16,127,sarcastic,"Based on Ana and James breaking up, Ken would see this comment as sarcastic since he doesn't have the full context of Ana's feelings towards James. ",1,a,7a,,,R,R,R
+16,128,sincere,"Without the context of knowing about May's feelings about Kate and how they changed, Elizabeth is going to believe that May really did believe the trip was nice. ",1,b,8b,,,R,R,R
+17,129,sincere,"Because they have been best friends since the first grade, despite her copying her hair style I would say that Alice is being sincere because she is supportive of her friend.",1,b,1b,,,I,S,S
+17,130,sincere,Jane is aware of how hard Catherine has worked and how motivating hitting her PR is so Jane would interpret the message as sincere!,1,c,2c,,,R,R,R
+17,131,sincere,Baking something for someone even if it isn't perfect is still a nice gesture and even though Jack messed it up I think he would interpret Anastasia's message as sincere as he doesn't know he messed up.,1,a,3a,,,R,R,R
+17,132,sarcastic,"Even though Margaret doesn't like dogs, puppies don't look scary so Julia would probably interpret the message as sarcastic.",1,b,4b,,,R,R,R
+17,133,sincere,Eric doesn't know about the intense argument and the conflict the brand has had with the magazine therefore he would interpret Phillip's note as sincere.,1,c,5c,,,R,R,R
+17,134,sarcastic,David doesn't know Jeremy that well and after seeing them get into a heated argument I don't think that David would believe that Jeremy is being sincere.,1,a,6a,,,R,R,R
+17,135,sarcastic,Ken probably doesn't know Ana that well and so only knowing that they had a heated argument I think Ken would interpret the message as sarcastic.,1,a,7a,,,R,R,R
+17,136,sincere,"Elizabeth doesn't know anything about what transpired on the trip and so when asking how it was I think Elizabeth would interpret ""It was nice,"" as it genuinely being a nice trip. ",1,b,8b,,,R,R,R
+18,137,sincere,Alice didn't want her friend to know she didn't like it. So she said something nice anyway.,2,a,1a,,,I,R,S
+18,138,sarcastic,Jane knows that Catherine wouldn't literally be able to lift a cow. It would also be unlikely as she is recovering from an injury.,2,b,2b,,,I,R,R
+18,139,sincere,"Jack didn't know that he used salt instead of sugar. He would have probably thought that it turned out ok, not terriable but not great.",2,b,3b,,,R,R,R
+18,140,sarcastic,Julia wouldn't have known about her past pexrience. So she would have just thought Margaret was joking since the dog was only a puppy which wouldn't look scary at all.,2,c,4c,,,R,R,R
+18,141,sincere,Eric probably thinks the jacket looks great and so wouldnt expect anything else.,2,a,5a,,,R,R,R
+18,142,sarcastic,David doesnt know the two of them very well. So he would think it was sarcasm having just seen the fight,2,b,6b,,,R,R,R
+18,143,sarcastic,"The last think that Kens knows about is the breakup , so i think he would see this as sarcasm",2,c,7c,,,R,R,R
+18,144,sincere,It doesn't sound scarcastic to me. I would think she might not have enjoyed that much but its not quite scarcasm,2,c,8c,,,D,S,D
+19,145,sincere,if they are friends there is no need for her to doubt what is being said and it is difficult to pick up sarcasm in a text,1,b,1b,,,D,D,D
+19,146,sincere,there seems to be no reason for sarcasm to be a factor in this scenario,1,c,2c,,,O,O,O
+19,147,sarcastic,Given the lack of experience it would be hard to believe the compliment as it is claiming perfection instead of just good which may have been more believable,1,a,3a,,,D,R,D
+19,148,sarcastic,if most other friends say the dog is cute and there is no indication that Julia is aware of Margaret's fear it would be likely to see the response as sarcasm/joking,1,b,4b,,,R,R,R
+19,149,sincere,In such a professional situation there should be no need to assume sarcasm unless Eric was aware of the conflict or Philip's view of the coat,1,c,5c,,,I,I,I
+19,150,sarcastic,Due to the argument it would be easy to see the letter as sarcastic,1,a,6a,,,R,R,R
+19,151,sincere,"Most people would probably not think such a compliment as sarcasm when it comes to a relationship, if Ken understand's Ana they would know they were sincere",1,a,7a,,,I,O,I
+19,152,sincere,Unless Elizabeth was aware of the situation there would be no need to question the sincerity,1,b,8b,,,R,R,R
+20,153,sarcastic,"Alice is being sarcastic as she sees that Olivia is copying her, and Is annoyed.",1,b,1b,,,S,S,S
+20,154,sincere,she'd know that Catherine would be honest if she was struggling or if she pushed herself too hard,1,c,2c,,,R,I,R
+20,155,sincere,because he thinks he made a nice gift for his friend and she sounds as if she appreciates it. he doesn't know of any reason why she wouldn't be sincere,1,a,3a,,,R,R,R
+20,156,sarcastic,"as everyone else thinks Julia's dog is cute, Julia would read the message of Margaret trying to have a joke when she actually thinks the puppy is quite cute",1,b,4b,,,R,R,R
+20,157,sincere,"Eric probably thinks his jacket looked great, and that the interview went well, so he wouldn't see any reason for Phillip to be rude about his jacket.",1,c,5c,,,R,I,R
+20,158,sarcastic,most young kids are sarcastic about their siblings,1,a,6a,,,I,O,I
+20,159,sarcastic,"if Ken knows how Ana's relationship ended then he might assume she is bitter or upset over the fight, and not actually think he is still a good guy",1,a,7a,,,R,R,R
+20,160,sarcastic,"nice isn't a word you'd use to describe something you enjoyed, and if you did enjoy it you would go into more detail to talk about the things you did and what you saw etc",1,b,8b,,,D,D,D
+21,161,sincere,"They've been friends for a long time, there's no reason for Olivia to think Alice wasn't being sincere.",1,b,1b,,,I,R,R
+21,162,sincere,"I don't think she would interpret the message as literal, but Catherine is obviously high on her achievement and I don't think it reads as sarcastic so much as exaggeration/metaphor",1,c,2c,,,O,D,D
+21,163,sincere,"It's a kind gesture, he's never baked before, I think he would think she was not being honest to protect his feelings and show her appreciation, but not being sarcastic",1,a,3a,,,I,R,R
+21,164,sarcastic,"Everyone else thinks the dog is cute, it's only a puppy so not generally considered scary, Julia is a new coworker so probably doesn't know Margaret's history with dogs.",1,b,4b,,,R,R,R
+21,165,sincere,"They don't know each other well, Phillip was friendly in the interview and didn't say anything then, no evidence Eric knows about Phillip and this designer",1,c,5c,,,R,R,R
+21,166,sarcastic,David saw a heated fight between the brothers only shortly before.,1,a,6a,,,R,R,R
+21,167,sarcastic,"Generally we don't expect that kind of response about an ex after a breakup, he doesn't know they are still on speaking terms, he knows they broke up with a dramatic fight",1,a,7a,,,R,R,R
+21,168,sincere,"It doesn't sound like sarcasm, it sound like someone who doesn't want to go into detail, Elizabeth doesn't know what happened on the trip",1,b,8b,,,R,R,R
+22,169,sincere,she's being polite,2,a,1a,,,S,S,S
+22,170,sincere,they're just using a similily,2,b,2b,,,O,D,D
+22,171,sincere,she's trying to protect his feelings,2,b,3b,,,S,S,S
+22,172,sincere,she's expressing her feelings,2,c,4c,,,S,O,S
+22,173,sarcastic,he knows it was bad,2,a,5a,,,O,S,S
+22,174,sarcastic,"I'm not sure, just gut",2,b,6b,,,O,O,O
+22,175,sincere,she genuinely feels this,2,c,7c,,,S,S,S
+22,176,sincere,"because the trip itself was nice, just soured at the end",2,c,8c,,,O,S,S
+23,177,sincere,"Because they're best friends that do everything together.Because Alice has so far kept her feelings to herself, so Olivia would have no reason to suspect Alice's comments as anything other than sincere.",0,c,1c,,,I,R,R
+23,178,sincere,Because Catherine is just using a silly statement to express her excitement at being back in the gym.,0,a,2a,,,I,D,D
+23,179,sarcastic,"Because despite the cake being awful, Jack has made a massive effort for Anastasia's birthday, and she wouldn't want to hurt his feelings.",0,c,3c,,,S,S,S
+23,180,sarcastic,"Because everyone usually fawns over her dog, Julia would probably think Margaret is joking.",0,a,4a,,,I,R,R
+23,181,sincere,Because Eric wouldn't expect anything other than a professional message following a formal interview.,0,b,5b,,,I,I,I
+23,182,sarcastic,Because David has just witnessed something to the contrary.,0,c,6c,,,R,R,R
+23,183,sincere,"Because she has no reason to be anything other than genuine about it to a friend, especially when she is on good terms now with James.",0,b,7b,,,I,S,S
+23,184,sincere,"Because May had not confided in anyone about the crush, so had no reason to be anything other than genuine to her friends about the trip.",0,a,8a,,,S,S,S
+24,185,sincere,I think Olivia didn't realise alice wouldn't like her having the same hairstyle and would take comment at face value,1,b,1b,,,R,R,R
+24,186,sincere,"I think Catherine's answer might be defensive , doesn't seem sarcastic",1,c,2c,,,O,O,O
+24,187,sincere,I think she's trying to protect his feelings and he would probably take it that way. He probably doesn't even know what he did,1,a,3a,,,S,S,S
+24,188,sincere,Don't see why she would take it any other way,1,b,4b,,,O,O,O
+24,189,sincere,Eric obviously thinks his outfit was fine. Phillip hasn't given him any clue as to how he feels,1,c,5c,,,R,I,R
+24,190,sarcastic,He's seen them fighting,1,a,6a,,,R,R,R
+24,191,sarcastic,If he hasn't had much contact with her he'll probably assume she thinks badly of james,1,a,7a,,,R,R,R
+24,192,sincere,I'm assuming May hasn;t shared her true feelings with anyone,1,b,8b,,,R,R,R
+25,193,sincere,Olivia doesnt know that Alice is annoyed so would take it seriously,0,c,1c,,,S,R,R
+25,194,sincere,Catherine is in a good mood about her PR,0,a,2a,,,S,S,S
+25,195,sarcastic,saying arent you so sweet when its salty sounds sarcastic,0,c,3c,,,O,D,D
+25,196,sincere,she doesnt like that kind of dog so would be serious,0,a,4a,,,S,S,S
+25,197,sincere,Eric doesnt know the conversation that Phillip had earlier so would have no reason to think it wasnt sincere,0,b,5b,,,R,R,R
+25,198,sarcastic,David has seen the argument so is unlikeyly to believe that they get on well enough for Jeremy to say he is the best,0,c,6c,,,R,R,R
+25,199,sarcastic,Ken has the perspective of their big breakup and doesnt know the context that Ana likes James,0,b,7b,R,,,R,R
+25,200,sincere,Presuming Elizabeth doesnt know that May has feelings for Kate she would assume that nothing went wrong,0,a,8a,R,,,R,R
+26,201,sarcastic,She doesnt like that their styles are similar but is telling her friend she likes it to avoid a argument,0,c,1c,S,,,S,S
+26,202,sarcastic,"A person couldnt actually lift a cow, but she is feeling strong",0,a,2a,S,,,S,S
+26,203,sincere,Shes trying not to hurt jacks feelings so she lied,0,c,3c,S,,,S,S
+26,204,sincere,She is scared of dogs,0,a,4a,S,,,S,S
+26,205,sarcastic,He hated the jacket but only said he liked it after talking behind erics back and berating him.,0,b,5b,S,,,S,S
+26,206,sincere,They genuinely care for each other and hang out,0,c,6c,S,,,S,S
+26,207,sincere,She considers him a good friend and talks to him regulary,0,b,7b,S,,,S,S
+26,208,sincere,She enjoyed spending time with her crush but was disappointed she was already in a relationship,0,a,8a,S,,,S,S
+27,209,sincere,they are very close friends and Olivia wouldn't expect sarcasm from Alice,0,c,1c,R,,,R,R
+27,210,sincere,she is positive in her attitude,0,a,2a,S,,,S,S
+27,211,sarcastic,Jack knows he is bad at cooking and as his best friend Anastasia would know this also,0,c,3c,R,,,R,R
+27,212,sarcastic,the usual response is that the dog is cute so Julia probably thinks margaret is joking,0,a,4a,R,,,R,R
+27,213,sincere,in such an environment you would expect a professional response,0,b,5b,O,,,I,I
+27,214,sarcastic,as someone who doesn't know the brothers that well and have only had one interaction which was a fght,0,c,6c,R,,,R,R
+27,215,sincere,she could be honest if she thought he was a bad person,0,b,7b,N,,,S,N
+27,216,sincere,i expect she thought it was sincere but perhaps not her true feelings,0,a,8a,I,,,R,I
+28,217,sincere,they are friends so olivia would expect her friend to tell her the truth,2,a,1a,R,,,R,R
+28,218,sincere,her message depicts the reality and shows that catherine is just really excited,2,b,2b,S,,,S,S
+28,219,sarcastic,"the way it's worded gives off a sarcastic vibe, she uses the word sweet to describe jake when he used salt for the cake",2,b,3b,D,,,D,D
+28,220,sarcastic,Julia might interpret it as sarcastic because she herself and her friends think the dog is really cute . So she wouldnt think somebody can see her dog as scary,2,c,4c,R,,,R,R
+28,221,sincere,"Even though it was a lie, I think eric would have interpret it as sincere because philip is a fashion magizine's manager",2,a,5a,R,,,I,I
+28,222,sarcastic,"David doensn't know the brothers very well and after witnessing their fight, he might think that they dont get along",2,b,6b,R,,,R,R
+28,223,sarcastic,He might think it is sarcastic given the way their relationship ended and the mere fact that they are exes,2,c,7c,R,,,R,R
+28,224,sincere,Elizabeth doesnt know May's feelings so she wouldnt suspect that her friend didnt have a good time on her trip,2,c,8c,R,,,R,R
+29,225,sincere,"They have been friends for a long time, so Olivia would expect her friend to be honest",1,b,1b,R,,,R,R
+29,226,sarcastic,She is clearly over exaggerating for comedic effect,1,c,2c,D,,,D,D
+29,227,sincere,He doesn't know he mixed up salt and sugar,1,a,3a,R,,,R,R
+29,228,sarcastic,Most people don't find puppies scary,1,b,4b,O,,,O,O
+29,229,sincere,He doesn't know about the history of the company's conflict,1,c,5c,R,,,R,R
+29,230,sincere,"He does love his brother, even if they fight",1,a,6a,S,,,S,S
+29,231,sincere,She has no reason to lie,1,a,7a,S,,,S,S
+29,232,sincere,"The trip was still nice, despite the unreciprocated and unexpressed romantic feelings",1,b,8b,S,,,S,S
+30,233,sincere,She doesn't like the haircut but she does not want to upset her friend - it is not a sarcastic tone,2,a,1a,D,,,S,S
+30,234,sincere,The tone is not entirely sincere because it is an exaggerated joke but it is not sarcastic,2,b,2b,D,,,D,D
+30,235,sincere,"As Jack does not know he confused salt with sugar, he probably thinks his cake was actually a success and so would see the message as sincere",2,b,3b,R,,,R,R
+30,236,sarcastic,"She is being sarcastic - as she is now an adult, she can make a self deprecating joke about her childhood trauma",2,c,4c,S,,,S,S
+30,237,sincere,"Since Phillip went to an interview wearing the jacket, he probably think it looks good and would think it is a sincere compliment",2,a,5a,R,,,I,I
+30,238,sarcastic,"As the brothers had an argument in front of David earlier, Jeremy would probably still be angry enough to make a sarcastic remark about his brother",2,b,6b,S,,,S,S
+30,239,sincere,Ana has no reason to lie about her opinion of James since they are on good terms,2,c,7c,S,,,S,S
+30,240,sarcastic,"The bluntness of the message suggests sarcasm, as May is clearly disappointed about the outcome of the trip",2,c,8c,D,,,S,S
+31,241,sincere,"Olivia didn't pick up on Alices frustrations, so she must have thought that the response was sincere",0,c,1c,R,,,R,R
+31,242,sarcastic,"I thisnk the phrased used makes it clear it's sarcasm, nobody would actually lift a cow",0,a,2a,D,,,D,D
+31,243,sincere,"It seems by the context that Jack is not aware of the mistake, so he would think the message is sincere",0,c,3c,R,,,R,R
+31,244,sincere,"Margaret is directly expressing her fear, it would be interpreted as sincere",0,a,4a,S,,,S,S
+31,245,sincere,"Philip didn't express any distaste to Erics style altogether, I don't beleve he would think it was sarcastic",0,b,5b,D,,,R,R
+31,246,sincere,Seems that it might be sincere as Jeremy seems to really like his brother,0,c,6c,S,,,S,S
+31,247,sincere,I think Ann thinks well of James,0,b,7b,S,,,S,S
+31,248,sarcastic,she made it out ncer than it was for her,0,a,8a,D,,,S,O
+32,249,sincere,It sounds genuine,2,a,1a,D,,,O,O
+32,250,sarcastic,its a simile and not actually serious,2,b,2b,D,,,D,D
+32,251,sincere,he may think that she's not noticed,2,b,3b,I,,,I,I
+32,252,sincere,if Julie is aware of the accident then she may let the comment go,2,c,4c,I,,,R,O
+32,253,sincere,as Phillip has been friendly throughout the day he might not think he's being rude,2,a,5a,R,,,R,R
+32,254,sarcastic,he knows they are brothers,2,b,6b,R,,,R,R
+32,255,sincere,as ana has moved on,2,c,7c,S,,,S,S
+32,256,sincere,the trip was intense,2,c,8c,O,,,S,O
+33,257,sarcastic,"I'm hoping that after these many years of relationship, both are being honest with each other. MEaning that both Alice and Olivia used sarcasm to say the same thing - that the haircut was terrible",2,a,1a,O,,,I,I
+33,258,sincere,"It's an exaggetation, but it's clear in the message that Cathrin feels great",2,b,2b,S,,,D,D
+33,259,sincere,"Hmmm difficult one. I know the words that Anastasia used could be sarcasm, but I am not sure how much close Jake and Anastasia are - maybe she just wanted to be cool",2,b,3b,S,,,S,S
+33,260,sarcastic,"Julia has no clue of Margaret麓s life, she wouln麓t see the message as real. I don't understand why Margaret would send this message though",2,c,4c,R,,,R,R
+33,261,sincere,"I hope Eric takes it in a good way (as it is sincere). Phillip is clearly being sarcastic, but very rude, taking into account that he麓s conducting interviews. Also, who cares about a jacket clashing with the outfit? Honestly.. ",2,a,5a,O,,,S,O
+33,262,sincere,Of course he sees it as a sincere comment! How cuould he not? Sibling relationships are love-hate relationships. Unless David is a single-child.... maybe then he would take it as sarcasm because he hasn麓t experienced this type of relationships,2,b,6b,I,,,R,I
+33,263,sincere,"I'm sure Ken was shocked and dissappointed to see Ana hanging out with JAmes again. Ana should stop talking to her ex, nothing good will come up from that",2,c,7c,I,,,I,I
+33,264,sincere,"Clearly Elizabeth would think is sincere. She doesn麓t know anything about the trip, the unexpected love, and the miserable end",2,c,8c,R,,,R,R
+34,265,sincere,"Unless this was previously spoken about, I would see no reason why Olivia would not take Alice sincerely",0,c,1c,O,,,I,O
+34,266,sincere,It would be amiss to use sarcasm in that way since Catherine could choose to not go to the gym,0,a,2a,O,,,O,O
+34,267,sincere,The message is indistinguishable from one written after a cake that was well received,0,c,3c,D,,,D,D
+34,268,sincere,It is common knowledge that many people are afraid of dogs,0,a,4a,O,,,O,O
+34,269,sincere,"Eric may think that his bold choice paid off, and remarks such as those are only taken sarcastically when there is some other reason to suppose so",0,b,5b,R,,,I,I
+34,270,sarcastic,"David would recognise that while it is common for brothers to get into fights, serious fights are something else, as well as the very strong statement 'best brother ever' standing in contrast to what David has seen",0,c,6c,R,,,D,R
+34,271,sincere,It is not unusual for exes to think fondly of each other after fights,0,b,7b,O,,,O,O
+34,272,sincere,"No reason for Elizabeth to suppose otherwise, without knowledge of any of May's underlying problems",0,a,8a,R,,,R,R
+35,273,sincere,"More of a friendly response and that particular phrase is not often used for sarcasm, especially over message",2,a,1a,D,,,D,D
+35,274,sincere,Jane knows Catherine is excited and knows how much this means to her,2,b,2b,I,,,R,I
+35,275,sincere,"I don't think she was intendning to hurt his feelings, I think she was just being kind",2,b,3b,S,,,S,S
+35,276,sincere,She is genuinely scared of dogs,2,c,4c,S,,,S,S
+35,277,sincere,Due to his demeanour during the interview - polite and friendly,2,a,5a,R,,,R,R
+35,278,sarcastic,due to witnessing the heated argument,2,b,6b,R,,,R,R
+35,279,sincere,They are good friends so I believe she would be honest enough if she wanted to respond negatively,2,c,7c,S,,,S,S
+35,280,sincere,She didn't know the full information to know whether she was being sarcastic or not,2,c,8c,R,,,R,R
+36,281,sincere,"It sounds as though Alice is trying to hide her feelings by her reply, the exclamation marks look like she's excited her friend now has the same hair as her",1,b,1b,D,,,D,D
+36,282,sincere,I think Catherine is speaking from the euphoria of her PR rather than getting at anyone,1,c,2c,S,,,S,S
+36,283,sincere,"He doesn't know he used salt so he'd take the message at face value, as sincere",1,a,3a,R,,,R,R
+36,284,sarcastic,"If the dog is very cute to most people then Margaret's response will sound sarcastic, especially if Julia doesn't know about her aversion to bulldogs",1,b,4b,R,,,R,R
+36,285,sarcastic,"If Eric knows anything about the company he would get the sarcasm, if he doesn't then he'd take it as sincere as this is a fashion magazine manager talking about fashion.  Hard to believe he wouldn't know about an ongoing conflict, I imagine that would be public or at least well-known in those circles",1,c,5c,I,,,R,O
+36,286,sincere,"I don't see why he would think sarcastic, just because they fight (brothers often do)",1,a,6a,I,,,R,I
+36,287,sincere,There's nothing to suggest she doesn't mean this,1,a,7a,O,,,S,O
+36,288,sarcastic,Sounds like a vague thing people say when they are less than thrilled about something!,1,b,8b,D,,,D,D
+37,289,sincere,hair cut is too far for a joke,1,b,1b,N,,,O,O
+37,290,sincere,ive heard people say that,1,c,2c,O,,,O,O
+37,291,sincere,sometimes its the effort that counts,1,a,3a,O,,,O,O
+37,292,sincere,a logical response,1,b,4b,O,,,O,O
+37,293,sincere,dont think eric would have known about the fued,1,c,5c,R,,,R,R
+37,294,sarcastic,"he doesnt know either of them, but saw them fight",1,a,6a,R,,,R,R
+37,295,sarcastic,he doesnt know they still talk,1,a,7a,R,,,R,R
+37,296,sarcastic,too brief to be meaningful,1,b,8b,D,,,D,D
+38,297,sincere,they are friends and alice would be nice for olivia,2,a,1a,S,,,S,S
+38,298,sincere,she is high motivated,2,b,2b,S,,,S,S
+38,299,sarcastic,She hate it but she tell that was perfect.,2,b,3b,N,,,S,S
+38,300,sincere,she tell her truth.,2,c,4c,S,,,S,S
+38,301,sarcastic,"phillip was very sarcastic, he hate erics jacket",2,a,5a,S,,,S,S
+38,302,sincere,theey hate and love themselfe,2,b,6b,N,,,S,S
+38,303,sincere,After broke up Ana think that James is a good person.,2,c,7c,S,,,S,S
+38,304,sarcastic,it wasnt nice.,2,c,8c,S,,,S,S
+39,305,sincere,"it comes off as a sincere compliment, not a backhanded one, as its to the point with no unnecessary words.",0,c,1c,D,,,D,D
+39,306,sincere,"using the word 'pumped' adds sincerity to the message, it doesn't sound like a joke",0,a,2a,D,,,D,D
+39,307,sarcastic,saying 'sweet' alludes to the mix-up between the salt and the sugar,0,c,3c,D,,,D,D
+39,308,sincere,"It's a direct response, there is no reason to interpret it as anything other than sincere, especially given Margaret's opinion on dogs and bulldogs specifically.",0,a,4a,D,,,R,D
+39,309,sincere,"Phillip probably wore it to stand out and make a statement, so would welcome the compliment.",0,b,5b,R,,,I,I
+39,310,sarcastic,"David has only seen the confrontation between the brothers, not any of the good times they have spent with each other.",0,c,6c,R,,,R,R
+39,311,sincere,"There is no reason to lie to a third party about her feelings towards James, so it would not be taken as anything other than sincere.",0,b,7b,O,,,S,I
+39,312,sincere,It's over text so maybe they wouldn't have gone into detail on a text.,0,a,8a,O,,,D,O
+40,313,sincere,I do not think Olivia's answer is sarcastic she is just not choosing to speak the truth.,1,b,1b,S,,,S,S
+40,314,sincere,I think Catherine's message is just exaggerating how she feels. She is not being sarcastic as it is not the opposite to what she is thinking.,1,c,2c,O,,,S,O
+40,315,sincere,"Anastasia is not causing any harm in her comment so I feel she is being sincere. Although the cake may not be great, Anastasia may be happy with the thought that went into it.",1,a,3a,S,,,S,S
+40,316,sincere,She is being honest about her thoughts towards Margaret's dog.,1,b,4b,S,,,S,S
+40,317,sarcastic,"assuming Eric knows some history between the magazine and fashion brand I feel that he would find it sarcastic, especially mentioning something so minor in an email after meeting face-to-face.",1,c,5c,I,,,S,I
+40,318,sarcastic,He is saying the opposite to what is he thinking at the time about his brother and saying it in spite.,1,a,6a,S,,,S,S
+40,319,sincere,Ana still thinks James is a good person so is just saying how she is thinking.,1,a,7a,S,,,S,S
+40,320,sincere,"I feel ""nice"" is a way to explain in a sincere way that the trip was just OK.",1,b,8b,D,,,D,D
+41,321,sarcastic,She doesn't like it so she can't be sincere.,2,a,1a,S,,,S,S
+41,322,sincere,Seems to she start to feel better after gym.,2,b,2b,S,,,S,S
+41,323,sarcastic,Cake was salty she refer to sweet as sarcasm,2,b,3b,S,,,D,D
+41,324,sincere,Her bad experience with bulldog from childhood makes it sincere.,2,c,4c,S,,,S,S
+41,325,sarcastic,He hasn't like his jacket so can't be sincere.,2,a,5a,S,,,S,S
+41,326,sincere,They are brothers and they enjoy to spend time together.,2,b,6b,S,,,S,S
+41,327,sincere,She likes James as a friend so she responded in sincere way so Ken must interpret it right.,2,c,7c,S,,,S,S
+41,328,sincere,The trip was nice so it was a sincere text even if she expected more.,2,c,8c,S,,,S,S
+42,329,sincere,while not honest it is not sarcastic.,1,b,1b,O,,,O,O
+42,330,sincere,response is exaggerated but not sarcastic.,1,c,2c,O,,,O,O
+42,331,sarcastic,Referring to him being sweet  as he got confused with sugar and salt.,1,a,3a,D,,,D,D
+42,332,sarcastic,it is a puppy and most people think it very cute. Julia would probably interpret response as sarcastic.,1,b,4b,R,,,R,R
+42,333,sincere,Eric would not have known the back story.,1,c,5c,R,,,R,R
+42,334,sarcastic,the note contradicts his observations of the brothers.,1,a,6a,R,,,R,R
+42,335,sarcastic,Ken does not know the current relationship between James and Anna.,1,a,7a,R,,,R,R
+42,336,sincere,Elizabeth does not know the back story.,1,b,8b,R,,,R,R
+43,337,sincere,"As she did not know that Alice was trying to create her own identity she most likely took the words ""omg I love it"" at face value and thinks that her friend really likes it!",0,c,1c,R,,,R,R
+43,338,sincere,I think Jane would interpret the message as sincere because the message was only asking if all was ok so I dont think there was any sarcasm in her question.,0,a,2a,D,,,R,O
+43,339,sincere,"Anastasias message to Jack would seem sincere because it only states that ""he is sweet"" so he would assume that she liked the cake and was thanking him.",0,c,3c,D,,,S,D
+43,340,sarcastic,I think Julia would think the message was sarcastic as most of Julias friends think her dog is cute so I think in view of this she would take the remark as being sarcastic.,0,a,4a,R,,,R,R
+43,341,sarcastic,I think he would interpret it as being sarcastic because it would be strange to say his jacket was nice otherwise.,0,b,5b,O,,,R,O
+43,342,sincere,"Despite David hearing the arguement between the brothers, I think that David would see Jeremys remarks about his brother as being genuine and sincere.",0,c,6c,I,,,R,O
+43,343,sincere,"I think ken would see the remarks as sincere because after a break up she would have every excuse to call him bad things but she did not, so is beleivable and sincere.",0,b,7b,I,,,R,I
+43,344,sarcastic,"I think Elizabeth may have interpreted this text as sarcastic because instead of using words such as great. wonderful or fabulous to describe the trip, she just used the word nice which shows that things were not as good as they should have been.",0,a,8a,D,,,D,D
+44,345,sincere,"It was just a text, and there were no hints at it being sarcasm",0,c,1c,D,,,D,D
+44,346,sincere,"Again, just a text, no indications of sarcasm present",0,a,2a,D,,,D,D
+44,347,sincere,"Again, text, no hints at sarcasm",0,c,3c,D,,,D,D
+44,348,sarcastic,"Since everyone thinks the puppy is cute, and it's very unlikely anyone is afraid of puppies, the most likely assumption is that the text is sarcastic",0,a,4a,O,,,R,R
+44,349,sincere,"No hints at it being sarcastic, unless Eric knew beforehand that the jacket wasn't the best, in which case he would take it as being sarcasm",0,b,5b,I,,,R,R
+44,350,sarcastic,"Because it is unlikely that they have such a good relationship, so it is more likely that it is sarcasm",0,c,6c,O,,,O,O
+44,351,sincere,"No hints at sarcasm, although whether it would be taken as sarcasm depends on Ana's personality. ",0,b,7b,D,,,O,O
+44,352,sincere,"No hints at sarcasm, the answer was believable",0,a,8a,D,,,O,O
+45,353,sincere,They are best friends and her reply doesn't have any elipses or emoji or anything to indicate uncertainty or sarcasm,0,c,1c,D,,,D,D
+45,354,sarcastic,She would obviously not actually lift a cow,0,a,2a,O,,,O,O
+45,355,sincere,He wasn't aware of him swapping salt and sugar,0,c,3c,R,,,R,R
+45,356,sarcastic,It would be akward to actually say that so I think she would think that it is sarcasm,0,a,4a,O,,,R,O
+45,357,sincere,Eric wasn't aware of the conversation beforehand,0,b,5b,R,,,R,R
+45,358,sarcastic,The only time he has seen them interacting was a heated argument,0,c,6c,R,,,R,R
+45,359,sincere,It would not be an conversation for sarcasm,0,b,7b,O,,,O,O
+45,360,sincere,she would have no reason to believe that May was lying,0,a,8a,R,,,O,O
+46,361,sincere,"Olivia doesn't have any existing knowledge that Alice is upset about the hairstyle, so she would probably take the message as sincere.",1,b,1b,R,,,R,R
+46,362,sincere,Jane would likely be anticipating a more tempered reply. Catherine's message probably carries an unusual amount of enthusiasm which would lean towards sincerity.,1,c,2c,D,,,I,D
+46,363,sincere,"Lacking any knowledge of salt/sugar mix-up, I would expect Jack to assume this to be sincere.",1,a,3a,R,,,R,R
+46,364,sarcastic,"As recent acquaintances, Julia may not be aware of Margaret's dog aversion. Given the number of ""cute"" replies she's received, Julia may assume Margaret is making a playful compliment rather than a sincere expression of fear.",1,b,4b,R,,,R,R
+46,365,sincere,"Unless Eric specifically noticed that Philip's scoff was directed towards the jacket, or knew the history of the company rivalry, he would likely think it's sincere.",1,c,5c,R,,,R,R
+46,366,sarcastic,"Lacking more knowledge of the brothers and with the most recent interaction David witnessed between them being a heated argument, so he would likely believe Jeremy was being sarcastic.",1,a,6a,R,,,R,R
+46,367,sincere,"Knowledge of the break up fight might cause Ken to expect a negative response, but I would assume that since he's asking after a year-long cooling off period that he'd expect a sincere answer from Ana.",1,a,7a,R,,,R,R
+46,368,sarcastic,"""Nice"" is a very bland summary of a long road trip, and Elizabeth would likely assume there is more to May's feelings than what's present in her text.",1,b,8b,D,,,D,D
+47,369,sincere,she would trust what she was saying to her as she was happy with her hairstyle and wouldnt have realised that Alice was annoyed,1,b,1b,R,,,R,R
+47,370,sincere,"i choose this as i feel that Jane would have understood the sentiment behind it that Catherine was feeling strong, and used a cow as an analogy",1,c,2c,I,,,R,I
+47,371,sincere,"Jack wouldnt have realised his mistake, so would have taken the message at face value",1,a,3a,R,,,R,R
+47,372,sincere,"she doesnt know her well, so wouldnt be messing around, also that is her first response to the photo with no emojis to say otherwise",1,b,4b,D,,,R,R
+47,373,sincere,eric would not have known any of the backstory between the two companies and would have accepted at face value the sentiment,1,c,5c,R,,,R,R
+47,374,sincere,"no reason to suspect he would be anything other than genuine, as their relationship as brothers goes deeper than just arguments",1,a,6a,O,,,S,O
+47,375,sincere,just because the relationship eneded with a fight doesnt mean Ana cant think of him as great,1,a,7a,O,,,O,O
+47,376,sincere,"she answered the question, though using the word nice she may have sussed that there might have been a bit more to it",1,b,8b,D,,,D,D
+48,377,sincere,I don't think alice is being sarcastic necessarily. she is being insincere as she does not really love olivia's hair and wants her to have different hair so it is a disingenuous comment rather than a sarcastic one. she probably is lying and saying she loves her hair as she doesn't want to hurt olivia's feelings,0,c,1c,O,,,S,O
+48,378,sincere,catherine's message is not sarcastic as it is not mean-spirited. it is just hyperbole as although she could not literally lift a cow she is sincere in expressing how good she feels,0,a,2a,O,,,D,O
+48,379,sarcastic,the text may be a joke in sarcasm saying he is sweet despite the salt. if they are long term close friends then sometimes sarcastic jokes are okay,0,c,3c,D,,,D,D
+48,380,sincere,"margaret is being honest about her reaction to the dog so it isnt sarcasm, julia may not react well but at least margaret is sincere",0,a,4a,S,,,S,S
+48,381,sincere,eric would not have known about philip's conversation with his coworker as he was not there. so as far as eric knows the compliment is sincere,0,b,5b,R,,,R,R
+48,382,sarcastic,david may think this is sarcasm as he has seen them fighting recently,0,c,6c,R,,,R,R
+48,383,sincere,kevin would interpret ana's comment as sincere as she genuinely believes this and as her close friend kevin would know this,0,b,7b,I,,,R,I
+48,384,sincere,Elizabeth would interpret May's text as sincere as to her knowledge may is being sincere as she did enjoy the trip despite what she has recently found out about Kate. just because she knows that kate is unavailable doesnt mean the trip was bad,0,a,8a,R,,,R,R
+49,385,sincere,"Olivia does not necessarily know that Alice is annoyed about her copying her hairstyle. Also, the intention of Alice's text is not necessarily to be sarcastic even if it is insincere.",1,b,1b,R,,,R,R
+49,386,sincere,I don't think her response could be considered sarcastic even if she knows that Jane is not happy about her return to the gym.,1,c,2c,O,,,S,O
+49,387,sincere,He does not know the cake is bad,1,a,3a,R,,,R,R
+49,388,sarcastic,"She does not know about Margaret's childhood incident, and there is apparently little reason to believe soemone would consider the dog sincerely scary",1,b,4b,R,,,R,R
+49,389,sincere,"Eric would not know about the conflict with the company, nor that Phillip considers it to clash with the rest of his outfit. ",1,c,5c,R,,,R,R
+49,390,sarcastic,"This was a hard choice, but maybe sarcastic given that his only experience of the two was an argument.",1,a,6a,R,,,R,R
+49,391,sincere,"There is no obvious way for this to be interpreted as a sarcastic response, without some kind of physical gesture (eye-rolling, etc) to indicate it. ",1,a,7a,D,,,D,D
+49,392,sincere,May's friend is unaware of what happened on the trip - and would probably assume the trip was nice.,1,b,8b,R,,,R,R
+50,393,sincere,they have been friend for a long time,1,b,1b,R,,,O,O
+50,394,sincere,shes pumped up and rteady to work,1,c,2c,S,,,S,S
+50,395,sarcastic,the cake has salt in it,1,a,3a,O,S,,O,O
+50,396,sincere,shes doesnt like dogs,1,b,4b,S,S,,O,O
+50,397,sarcastic,hes doesnt like the brand,1,c,5c,S,S,,,S
+50,398,sincere,they are brothers,1,a,6a,O,O,,,O
+50,399,sincere,they still talk regulalry,1,a,7a,O,S,,O,O
+50,400,sincere,it was a good trip with a friend,1,b,8b,S,S,,,S
+51,401,sincere,They are good friends and there are lots of exclamation marks. It seems like Alice meant well and meant not to hurt her friend's feelings.,2,a,1a,D,S,,S,S
+51,402,sincere,"I think her answer is sincere, though joking.",2,b,2b,O,O,,,O
+51,403,sincere,It seems like Anastasia meant to be nice to her friend.,2,b,3b,S,S,,,S
+51,404,sincere,Margaret is sincerely afraid of dogs and seemed like she meant what she said.,2,c,4c,S,S,,,S
+51,405,sarcastic,This seems like an extraneous thing to say.,2,a,5a,D,D,,,D
+51,406,sarcastic,"This phrase comes off as sarcasm, especially because the two boys fight a lot.",2,b,6b,D,R,,R,R
+51,407,sincere,"The paragraph says that Ana still thinks well of James, so her saying that he is a great person is not a surprise.",2,c,7c,O,S,,S,S
+51,408,sarcastic,May's response seems curt and more sarcastic knowing the background of the story.,2,c,8c,O,D,,O,O
+52,409,sarcastic,It clearly says she doesn't like it,2,a,1a,S,S,,,S
+52,410,sincere,she was genuinely worried and interested,2,b,2b,O,R,,R,R
+52,411,sarcastic,She is lying,2,b,3b,S,S,,,S
+52,412,sincere,she had a trauma and is telling the truth,2,c,4c,S,S,,,S
+52,413,sarcastic,lying,2,a,5a,S,S,,,S
+52,414,sincere,they are friends,2,b,6b,S,S,,,S
+52,415,sincere,she wouldn't seek his advice etc if she didn't really still think he was great,2,c,7c,S,S,,,S
+52,416,sarcastic,"lying, she was upset",2,c,8c,S,S,,,S
+53,417,sincere,She does not want to upset her friend,0,c,1c,S,S,,,S
+53,418,sarcastic,It is just a figure of speech,0,a,2a,D,D,,,D
+53,419,sincere,It was a thoughtful gesture from a friend,0,c,3c,O,S,,S,S
+53,420,sincere,She has an aversion to them,0,a,4a,S,S,,,S
+53,421,sarcastic,He has already mocked it,0,b,5b,S,S,,,S
+53,422,sincere,"Despite their fights, they are close",0,c,6c,S,S,,,S
+53,423,sincere,They have remained friends and still keep in contact,0,b,7b,S,S,,,S
+53,424,sincere,She enjoyed the trip,0,a,8a,S,S,,,S
+54,425,sincere,Olivia can't read Alice's thoughts.,1,b,1b,R,R,,,R
+54,426,sarcastic,"It's obvious that Catherine doesn't really believe she could lift a cow, so in that sense it's more sarcasm than seriousness.",1,c,2c,S,D,,D,D
+54,427,sincere,Jack doesn't realize he used salt instead of sugar.,1,a,3a,R,R,,,R
+54,428,sincere,Most people wouldn't call someone's pet scary unless they meant it.,1,b,4b,O,S,,O,O
+54,429,sincere,Eric isn't aware of the clash.,1,c,5c,R,R,,,R
+54,430,sarcastic,David knows about the fight.,1,a,6a,R,R,,,R
+54,431,sincere,People don't usually keep in contact with people they deem bad.,1,a,7a,O,I,,O,O
+54,432,sincere,Elizabeth isn't aware of May's crush.,1,b,8b,R,R,,,R
+55,433,sincere,though being annoyed by being copies she obviously likes the style as she had it done to herself,0,c,1c,S,S,,,S
+55,434,sincere,she is using humour to express her positivity at. her progress,0,a,2a,S,S,,,S
+55,435,sincere,she appreciates the effort jack made and is using a white lie to save his feelings,0,c,3c,S,S,,,S
+55,436,sincere,just expressing how she feels,0,a,4a,S,S,,,S
+55,437,sincere,no reason to think otherwise,0,b,5b,O,R,,O,O
+55,438,sincere,you can appreciate siblings even when you fall out,0,c,6c,O,S,,O,O
+55,439,sincere,its how she feels,0,b,7b,S,S,,,S
+55,440,sincere,beth doset know may was goig to confess feelings but backed down,0,a,8a,R,R,,,R
+56,441,sincere,it seems genuine,2,a,1a,D,O,,O,O
+56,442,sincere,seems more of a funny answer,2,b,2b,D,D,,,D
+56,443,sincere,she was being polite,2,b,3b,S,D,,S,S
+56,444,sincere,its her hang up showing,2,c,4c,N,O,,,N
+56,445,sarcastic,it was a throw away remark,2,a,5a,D,D,,,D
+56,446,sarcastic,so why do they fight?,2,b,6b,N,O,,O,O
+56,447,sincere,she is overlooking the ending of relationship,2,c,7c,S,S,,,S
+56,448,sincere,most of trip was nice,2,c,8c,O,S,,S,S
+57,449,sincere,"She replied with a response that is of the same opinion as Olivia has about her hair, so she may not detect the sarcasm",1,b,1b,D,R,,R,R
+57,450,sarcastic,"She knows that she could not literally lift a cow, but she could still detect her optimism",1,c,2c,R,O,,O,O
+57,451,sincere,Jack does not know he has made the error.,1,a,3a,R,R,,,R
+57,452,sarcastic,"It is a new coworker who may not know about Margaret's history with dogs, so she won't expect any genuine fear",1,b,4b,R,R,,,R
+57,453,sincere,"Unless Eric heard Phillip's scoff under his breath, he will think it is a sincere comment",1,c,5c,R,R,,,R
+57,454,sincere,He genuinely enjoys spending time with his brother.,1,a,6a,S,S,,,S
+57,455,sarcastic,"After ending it with a big fight, you would not expect them to be on good terms still",1,a,7a,R,R,,,R
+57,456,sincere,Elizabeth is likely oblivious to May's feelings about Kate,1,b,8b,R,R,,,R
+58,457,sarcastic,"since they have been friends a long time, it makes sense that they know each other well enough - knowing preferences of the other person.",2,a,1a,I,I,,,I
+58,458,sincere,there's no reason why Jane would take that as sarcastic. they're partners and Jane wants the best for her partner.,2,b,2b,O,R,R,,R
+58,459,sincere,he doesn't know he made the mistake and probably thinks his friends appreciated his efforts,2,b,3b,R,R,,,R
+58,460,sarcastic,considering most people think the dog is cute meaning probably small and non-threatening plus jane doesn't know margaret's aversion to bulldogs,2,c,4c,R,R,,,R
+58,461,sarcastic,maybe Eric heard the scoff,2,a,5a,I,R,R,,R
+58,462,sarcastic,David doesn't know their history and they just had a fight,2,b,6b,R,R,,,R
+58,463,sarcastic,ken still knows of the dramatic fight and not the good years they had thereafter,2,c,7c,R,R,,,R
+58,464,sincere,elizabeth doesnt know about the heartbreak,2,c,8c,R,R,,,R
+59,465,sincere,an attempt to save feelings,2,a,1a,S,S,,,S
+59,466,sincere,no sign of sarcasm,2,b,2b,D,O,O,,O
+59,467,sincere,meant as a joke,2,b,3b,S,S,,,S
+59,468,sincere,a genuine feeling,2,c,4c,S,S,,,S
+59,469,sincere,eric wouldn't get sarcasm from the note so seems more vindictive than sarcastic.,2,a,5a,D,R,D,,D
+59,470,sarcastic,can be seen as sarcasm,2,b,6b,O,O,,,O
+59,471,sincere,seems genuine,2,c,7c,O,D,O,,O
+59,472,sincere,not sarcasm,2,c,8c,O,O,,,O
+60,473,sincere,because theyre close friends and olivia would trust alices reaction,0,c,1c,R,I,I,,I
+60,474,sincere,jane would trust the message as showing catherines capability,0,a,2a,R,O,R,,R
+60,475,sincere,as theyre friends jack would take the comment as a compliment and in a positive light,0,c,3c,R,R,,,R
+60,476,sarcastic,i think julia would take it as being humourous and sarcastic and not sincere,0,a,4a,R,R,,,R
+60,477,sincere,he would trust his comment as he work for a fashion magazine,0,b,5b,R,R,,,R
+60,478,sarcastic,because he saw the argument he wouldnt believe the message in the letter,0,c,6c,R,R,,,R
+60,479,sarcastic,she would think she's being sarcastic as she knows they broke up but doesnt know that they still talk etc,0,b,7b,R,R,,,R
+60,480,sincere,she would think its a genuine response,0,a,8a,R,O,R,,R
+61,481,sincere,You would not expect your friend to be sarcastic about your new hairstyle,0,c,1c,O,R,R,,R
+61,482,sarcastic,There is no way she could actually lift a cow.,0,a,2a,O,D,D,,D
+61,483,sincere,You wouldn't want to hurt your friends feelings especially when they've done something so kind.,0,c,3c,O,S,O,,O
+61,484,sarcastic,Most people would not actually be unkind about your dog.,0,a,4a,O,R,O,,O
+61,485,sincere,It would be unprofessional to be sarcastic.,0,b,5b,O,S,O,,O
+61,486,sarcastic,david knows that Jeremy does not actually think this.,0,c,6c,I,R,I,,I
+61,487,sincere,Couples who split up can still be friends.,0,b,7b,O,O,,,O
+61,488,sincere,Elizabeth does not know that May was going to confess to Kate her crush.,0,a,8a,R,R,,,R
+62,489,sincere,They are best friends and this seems to be the only thing which is negative so alice wont be able to tell the difference,1,b,1b,R,R,,,R
+62,490,sincere,It just seems playful,1,c,2c,D,O,D,,D
+62,491,sincere,he doesnt know he put salt in the cake and he has not tried it himself,1,a,3a,R,R,,,R
+62,492,sarcastic,they are coworkers so she might think that everyone thinks bulldogs are scary at first sight,1,b,4b,O,O,,,O
+62,493,sarcastic,i think he could have done this on purpose to cause some sort of reaction,1,c,5c,I,S,I,,I
+62,494,sarcastic,he doesnt know much of them execpt that they fight a lot,1,a,6a,R,R,,,R
+62,495,sincere,the fact they still speak with each other means they are better now,1,a,7a,S,S,,,S
+62,496,sincere,it short but simple they had a heartwarming chat,1,b,8b,S,O,S,,S
+63,497,sarcastic,"I think that the compliment is very passive aggressive, and Alice is probably quite bitter about Olivia copying her hairstyle.",0,c,1c,S,S,,,S
+63,498,sincere,I think that Jane is genuinely concerned about Catherine and I don't think her message sounds insincere at all - she is worried about her partner.,0,a,2a,S,N,S,,S
+63,499,sincere,I think that Anastasia probably didn't want to upset Jack as she knew he'd tried his best despite being a poor cook. She probably wanted to just keep the real reaction to herself without hurting his feelings.,0,c,3c,S,S,,,S
+63,500,sincere,"I think Margaret was just giving her true and honest opinion about the dog, and wasn't trying to hide her dislike. She was authentic about her response.",0,a,4a,S,S,,,S
+63,501,sincere,"On one hand, I think he could be being sarcastic but I think he is being sincere in that he just wants to make the candidate feel some confidence after the interview and after Philip was so polite and friendly. He kept his opinion to himself and tried to give Philip a bit of a boost.",0,b,5b,S,S,,,S
+63,502,sincere,"As mentioned in the text, despite the fights, Jeremy feels generally very positive about his brother and wants to show David that really, he does love his brother.",0,c,6c,S,S,,,S
+63,503,sincere,"I would hope that Ana and Ken had spoken about James before, and since he has asked for her real opinion, believes what Ana has said about her ex.",0,b,7b,I,I,,,I
+63,504,sincere,"Since Elizabeth probably doesn't know the backstory, she probably did think May was being sincere and that she had had a nice time.",0,a,8a,R,R,,,R
+64,505,sincere,Alice seems to be hiding her annoyance so it would probably come across as sincere as that's her intention.,0,c,1c,S,S,,,S
+64,506,sincere,Catherine seems to be genuinely enthusiastic about her time at the gym.,0,a,2a,S,S,,,S
+64,507,sincere,"It seems to be like Anastasia appreciates Jack's attempt to do something nice for her, she doesn't want to hurt his feelings.",0,c,3c,S,S,,,S
+64,508,sarcastic,If she doesn't know about Margaret's dog issues then Julia might think she's being sarcastic and means that really he's adorable. But if she knows she's scared of them then she'd realize she's being sincere.,0,a,4a,R,R,,,R
+64,509,sincere,He'd think Philip is being sincere because he doesn't know his real feelings about those jackets.,0,b,5b,R,R,,,R
+64,510,sincere,"Even if David saw them fighting that one time, he has no real reason to think they don't like each other so he'd probably think it was sincere.",0,c,6c,O,R,R,,R
+64,511,sincere,I think that the tone of the conversation would make a difference here. I feel like Ken would know if that's something Ana would be sarcastic about or not.,0,b,7b,I,I,,,I
+64,512,sincere,Elizabeth would probably really that May's reply is less than enthusiastic but I don't think she'd think May is being sarcastic unless she knows more of the story.,0,a,8a,R,R,,,R
+65,513,sincere,She has no idea that copying her friend would dent her friend's individuality,0,c,1c,R,R,,,R
+65,514,sincere,"catherine is excited, she has no inkling of her friend's doubts she is just happy to have performed well",0,a,2a,R,S,S,,S
+65,515,sarcastic,"jack knows deep down he screwed up, he is not fooled by the praise, he knows his mate loves him",0,c,3c,I,I,,,I
+65,516,sincere,she can see her friend has a negative perception of her dog no matter how cute he is,0,a,4a,I,I,,,I
+65,517,sincere,"he does not want eric to feel he has screwed up, he is kind enough to praise the thing he has serious doubts about",0,b,5b,S,S,,,S
+65,518,sincere,he cares about spencer despite the things he is noon board with,0,c,6c,S,S,,,S
+65,519,sincere,"she cARES about him, she will not treat him badly",0,b,7b,S,S,,,S
+65,520,sincere,"it WAS nice, but the outcome may be sad for may",0,a,8a,S,S,,,S
+66,521,sincere,she would be happy for her friend and would be pleased she likes it,1,b,1b,R,S,S,,S
+66,522,sarcastic,"it is not sincere as it is not a serious comment, more witty",1,c,2c,D,D,,,D
+66,523,sincere,Jack does not know his mistake so he would think the cake was perfect,1,a,3a,R,R,,,R
+66,524,sarcastic,dog owners do not accept their own pet is scary even if Margaret genuinely sees it that way,1,b,4b,R,O,O,,O
+66,525,sincere,Eric does not know about the conflict with the jacket brand or he would not have worn it for the interview,1,c,5c,R,R,,,R
+66,526,sincere,even though they fight he enjoys spending time with his brother and genuinely thinks that,1,a,6a,S,S,,,S
+66,527,sarcastic,his last memory would be the dramatic fight so he would find that hard to believe,1,a,7a,R,R,,,R
+66,528,sincere,she does not know what happened on the trip and had no reason to suspect otherwise,1,b,8b,R,R,,,R
+67,529,sincere,"They've been close and friends usually give a positive response to each other. Unless they were ""frienemies"", it seems like Olivia would have taken the response at face value.",1,b,1b,R,R,,,R
+67,530,sincere,"As they are partners, I'd expect that Jane knows how happy Catherine is to be going to the gym, even if she doesn't agree with it. So she'd take it as sincere (although she'd probably recognize that Catherine doesn't actually want to lift a cow--but I don't think that statement counts as sarcasm)",1,c,2c,I,I,,,I
+67,531,sincere,"Once again, as they are close, it seems like Anastasia would probably be nice about it. If Jack never realized he'd mixed up the salt and sugar, he'd think his cake actually came out ok and that Anastasia enjoyed it (at least enough to be kind about it). ",1,a,3a,R,R,,,R
+67,532,sincere,"Julia might be offended by the response, but it would be a strange thing to say with sarcastic intent.",1,b,4b,O,O,,,O
+67,533,sincere,"This is harder. If Eric is aware of the conflict between the magazine and the brand, OR if he noticed the scoff, he might read it as sarcastic, but with the information given, it's unlikely that he would read further into it, even though Phillip almost certainly meant it sarcastically.",1,c,5c,R,R,,,R
+67,534,sarcastic,"This is also more challenging. Having seen the fight and not knowing the two of them well, David might have interpreted it as said with an eyeroll. But he might also recognize that the fight was not an indicator of their relationship.",1,a,6a,R,R,,,R
+67,535,sarcastic,"Ken only knows that it ended badly, but he doesn't know about Ana's feelings since. If she said it with no other context and no reasons, he might interpret it as sarcasm. If she gave reasons for thinking so, he'd probably take it as sincere.",1,a,7a,R,R,,,R
+67,536,sincere,"Having no further context, it seems unlikely that Elizabeth would see sarcasm here.",1,b,8b,R,R,,,R
+68,537,sincere,Olivia would think that Alice genuinely likes her bangs as Alice has bangs herself.,1,b,1b,R,R,,,R
+68,538,sarcastic,"Jane would interpret it as sarcasm, as she obviously couldn't actually lift a cow.",1,c,2c,R,D,R,,R
+68,539,sincere,Jack would interpret it as sincere as he did not know that he used sugar instead of salt.,1,a,3a,R,R,,,R
+68,540,sincere,It's too abrupt of a message to be interpreted as sincer.,1,b,4b,D,D,,,D
+68,541,sincere,He would interpret it as sincere as he did not know Phillip's history with the company.,1,c,5c,R,R,,,R
+68,542,sarcastic,David would think it was sarcastic as seen them in a heated argument.,1,a,6a,R,R,,,R
+68,543,sincere,It could be interpreted as sincere as she had been in a relationship with James.,1,a,7a,O,R,O,,O
+68,544,sincere,Elizabeth did not know what had happened and so there would be no reason for her to interpret the comment as sarcastic.,1,b,8b,R,R,,,R
+69,545,sarcastic,"Alice is annoyed that Olivia is copying her hairstyle, and Olivia is also going out of her way to tell Alice about it. ",1,b,1b,S,S,,,S
+69,546,sincere,Catherine knows Jane believes it to be too early for her to be back at the gym. There is not much of a reason for Catherine to respond hastily and sarcastically to Jane.,1,c,2c,S,S,,,S
+69,547,sincere,"The cake was in fact, not perfect. But poor Jack hasn't a clue so there is no reason he would think Anastasia was being sarcastic.",1,a,3a,R,R,,,R
+69,548,sarcastic,"Julia does not know the Margaret has an aversion to dogs. Presumably, she would think Margaret is just being a silly goose.",1,b,4b,R,R,,,R
+69,549,sincere,Eric does not have the background context of the situation.,1,c,5c,R,R,,,R
+69,550,sarcastic,"David just witnessed the reckoning of the brothers, there is no way he thinks they like one another.",1,a,6a,R,R,,,R
+69,551,sarcastic,Societal context would tell Ken that the majority of people do not think their ex is a great person.,1,a,7a,R,O,O,,O
+69,552,sarcastic,The word nice over text does not actually mean nice. It carries a negative connotation.,1,b,8b,D,D,,,D
+70,553,sincere,as i feel she was protecting the feelings of her friend she was being sincere,2,a,1a,S,S,,,S
+70,554,sincere,she seems excited and this feels like a sincere thought,2,b,2b,S,S,,,S
+70,555,sarcastic,as they are best friends i feel she was being sarcastic about the cake and this would not hurt jacks feelings,2,b,3b,S,S,,,S
+70,556,sincere,as margaret had this trauma i feel her response is sincere and she is actually afraid of the dog,2,c,4c,S,S,,,S
+70,557,sarcastic,as phillip scoffed i feel like the reply has a element of sarcasm,2,a,5a,S,S,,,S
+70,558,sincere,as they enjoy spending time with eachother i feel this is a sincere letter and david will take it that way,2,b,6b,S,S,,,S
+70,559,sincere,as they kept in regular contact i see no reason why not believe this is a sincere text and ken will interrupt it as so.,2,c,7c,S,I,I,,I
+70,560,sarcastic,i feel there is a sense of confusion so i feel elizabeth would interpret this text as sarcastic,2,c,8c,O,O,,,O
+71,561,sincere,"Because neither of them have indicated dislike of the hairstyle, nor a preestablished dislike of the hairstyle.",2,a,1a,R,R,,,R
+71,562,sarcastic,Jane knows about Catherine's injury and so will understand the exaggerated enthusiasm from Catherine would be too much from someone freshly recovering from a back injury.,2,b,2b,R,R,,,R
+71,563,sincere,Jack does not know his mistake and such a response from Anastasia would seem like common courtesy.,2,b,3b,R,R,,,R
+71,564,sarcastic,Julia does not know about Margaret's past trauma with dogs and so the comment will seem out of place unless it was a joke.,2,c,4c,R,R,,,R
+71,565,sincere,"Eric does not know that Philip dislikes his style of fashion, and as the interview went will and fashion is highly subjective Eric may just consider it a genuine compliment.",2,a,5a,R,R,,,R
+71,566,sarcastic,David does not know of the genuine friendship the brothers have for each other and having only seen the heated argument will not be quick to believe such a statement.,2,b,6b,R,R,,,R
+71,567,sincere,Ken has no knowledge of how they broke up and so can only take her word and may think they broke up amicably.,2,c,7c,R,R,,,R
+71,568,sincere,Elizabeth has no idea what happened to May during the trip nor her feelings throughout so Elizabeth can only take May's word for it.,2,c,8c,R,R,,,R
+72,569,sarcastic,"As they are lifelong friends, Olivia would know her friends reactions to events.",1,b,1b,I,I,,,I
+72,570,sincere,Because Jane understands her partner and also understands how important it is for Catherine to return to full fitness.,1,c,2c,O,R,R,,R
+72,571,sincere,Anastasia understands and accepts the sincerity of Jack's gesture!,1,a,3a,S,S,,,S
+72,572,sarcastic,Julia probably does not know about Margaret's experience and therefore might think of this as sarcastic.,1,b,4b,R,R,,,R
+72,573,sincere,Eric does not know the history of the incident that occured with Phillip.,1,c,5c,R,R,,,R
+72,574,sarcastic,David will go by what he witnessed and may not know that Jeremy enjoys spending time with Spencer.,1,a,6a,R,R,,,R
+72,575,sarcastic,Ken may not be aware of the communication James and Ana have maintained even after the break up,1,a,7a,R,R,,,R
+72,576,sarcastic,Probably because May had already told Elizabeth about her feelings for Kate.,1,b,8b,I,I,,,I
+73,577,sincere,the omg adds more excitement and sincerity to the response. the exclamation marks makes it seem like she is being sincere,0,c,1c,D,D,,,D
+73,578,sincere,"although is making a comparison to lifting a cow, it doesn't make her response sarcastic, but shows her passion.",0,a,2a,D,D,,,D
+73,579,sarcastic,"jack knows hes a terrible cook, so the fact she said it was perfect, would suggest to jack that she is joking. Also the aren/t you so sweet is a bit patronising. ",0,c,3c,D,I,I,,I
+73,580,sincere,it is honest and truthful as margaret does not like dogs. Julia knows that not everyone likes dogs.,0,a,4a,S,S,,,S
+73,581,sincere,"Although philip scoffed, eric doesn't know it was because of the jacket. Also as he just sent a kind gesture to phillip, he would expect something sincere in return, not a sarcastic comment as that is rude. ",0,b,5b,R,R,,,R
+73,582,sarcastic,he had a heated argument in front of david. david knows they've had a sensitive argument and would be able to see that jeremy is being sarcastic.,0,c,6c,R,R,,,R
+73,583,sarcastic,"Although Ana genuinely thinks james is a good person, other people such as ken clearly does not know this, otherwise he wouldnt have asked. Also they had a very dramatic fight so people clearly think they are not on good terms because of that.",0,b,7b,R,R,,,R
+73,584,sincere,"I think she would interpret it as sincere, but knows that something happened during it, as the response is quite brief and short.",0,a,8a,D,D,,,D
+74,585,sincere,they are friends and Olivia doesnt think that Alice have reason to lie,2,a,1a,R,R,,,R
+74,586,sincere,"Catherine knows her partner worries about her, so she tells the truth",2,b,2b,S,S,,,S
+74,587,sincere,"He didnt notice that he put salt instead of sugar, so cant think that anastasia is sarcastic",2,b,3b,R,R,,,R
+74,588,sarcastic,"Julia doesnt know about margarets past, so going to think she is being sarcastic",2,c,4c,R,R,,,R
+74,589,sincere,As Eric really likes is own jacket he wont think other people will not,2,a,5a,R,R,,,R
+74,590,sarcastic,"they dont know each other very well, and as david saw the argument , think that its the way they are all the time",2,b,6b,R,R,,,R
+74,591,sarcastic,the person going to think about the time they knew each other and so going to make judgement about that time,2,c,7c,R,R,,,R
+74,592,sincere,"she doesnt know what the other was thinking, so no reason to be sarcastic",2,c,8c,R,R,,,R
+75,593,sincere,I think Alice does not want to upset her friend,1,b,1b,S,S,,,S
+75,594,sincere,I think Jane would feel that Catherine is telling her that her back is fine and there is no need to worry.,1,c,2c,R,R,O,,O
+75,595,sincere,Jack would know that Anastasia does not want to hurt his feelings,1,a,3a,,I,S,,I
+75,596,sincere,Margaret is being honest and wants to ensure that Julia is aware she is frightened,1,b,4b,,S,S,,S
+75,597,sarcastic,There was no need to mention the jacket so to make a comment about it seems like it was done deliberately to be sarcastic,1,c,5c,,D,D,,D
+75,598,sincere,"I think Jeremy really does like Spencer despite them fighting, but this is quite common amongst siblings.",1,a,6a,,S,S,,S
+75,599,sincere,I can't see any reason why Ken would want to make a sarcastic comment.,1,a,7a,,S,O,,N
+75,600,sincere,I think May was being genuine because nice things did happen to her on the trip,1,b,8b,,S,O,,S
+76,601,sincere,I don't think Alice meant to be sarcastic and was just saying what she thought Olivia would want to hear. I don't feel there is any indication of sarcasm.,1,b,1b,,S,S,,S
+76,602,sincere,As shes knows the backstory i dont thinks she would views this as sarcastic.,1,c,2c,,R,I,,R
+76,603,sarcastic,She is making a joke about the lack of sugar in the cake,1,a,3a,,S,S,,S
+76,604,sarcastic,She is jus joking as she personally doesn't like dogs.,1,b,4b,,S,S,,S
+76,605,sarcastic,He clearly wasn't being truthful. However i found the situation rather unbelievable.,1,c,5c,,S,R,,S
+76,606,sincere,I don't think they would understand the concept of sarcasm at this age.,1,a,6a,,O,O,,O
+76,607,sincere,She does not give enough detail to appear sarcastic.,1,a,7a,,D,D,,D
+76,608,sincere,I think she would of questioned the lack of detail. However lack of detail is not an indicator that the text was meant to be sarcastic.,1,b,8b,,R,D,,D
+77,609,sincere,Olivia has no way of knowing that Alice was annoyed by Olivia's new bangs.,0,c,1c,,R,R,,R
+77,610,sincere,Jane should know Catherine well enough to realize that Catherine is excited.,0,a,2a,,I,I,,I
+77,611,sincere,Anastasia is clearly attempting to protect her best friend's feelings.,0,c,3c,,S,S,,S
+77,612,sarcastic,"Based on the reactions of her other friends, Julia likely thinks that Margaret is attempting to be funny. ",0,a,4a,,R,R,,R
+77,613,sincere,"Although Philip is attempting to be sarcastic, Eric does not know him well enough to see anything other than compliment.",0,b,5b,,R,R,,R
+77,614,sarcastic,David does not know the background of the two brothers.,0,c,6c,,R,R,,R
+77,615,sarcastic,"Ken is unaware that the two have repaired their relationship enough, since the fight, to be friends now. ",0,b,7b,,R,R,,R
+77,616,sincere,"The answer, on its surface, was neutral, and the feeling was not conveyed over text. ",0,a,8a,,D,D,,D
+78,617,sincere,they have done everything together and had a similar identity up until this point so she likely wouldn't know that Alice would be annoyed by her haircut,0,c,1c,,R,I,,R
+78,618,sincere,Jane probably knows that Catherine was excited to go back to the gym,0,a,2a,,I,I,,I
+78,619,sincere,Jack doesn't seem aware that his cake was messed up so has no reason to think she wouldn't have liked it,0,c,3c,,R,R,,R
+78,620,sarcastic,"Julia and Margaret just met so Julia most likely doesn't know about Margaret's aversion to dogs/bulldogs, plus describing a puppy as ""scary"" would likely be interpreted as silly. ",0,a,4a,,R,R,,R
+78,621,sincere,Phillip was polite and friendly to Eric plus as the manager of a fashion magazine he must take clothes seriously so Eric has no reason to think that any comments about his clothing would be anything other than sincere.,0,b,5b,,R,R,,R
+78,622,sarcastic,David has only seen them argue plus it's quite common for siblings to be rude/sarcastic about each other.,0,c,6c,,R,R,,R
+78,623,sincere,Even though Ken hasn't talked to Ana since her break up with James he likely still knows that they're on good terms now from other people.,0,b,7b,,I,I,,I
+78,624,sincere,Elizabeth probably heard/saw via social media or elsewhere that Mary was having a good time on the trip while she was on it and since this is shortly after the trip she probably hasn't yet realised that Mary is bitter/reluctant to talk about the trip yet,0,a,8a,,I,R,,I
+79,625,sincere,"I would think although she is annoyed that she has copied her, it's her best friend and so she wants her friend to be happy and maybe also sees it as a compliment.",1,b,1b,,S,I,,S
+79,626,sincere,I think it is obvious Catherine is pleased with her progress and that she is ust being mega enthusiastic after overcoming her challenges.,1,c,2c,,S,D,,S
+79,627,sincere,"I would think, even if Anastasia thought it was disgusting, she was probably extremely grateful for the gesture.",1,a,3a,,S,I,,S
+79,628,sarcastic,"As most people have said her dog is cute, I think she would think she was being sarcastic, well sarcastically humerous maybe.",1,b,4b,,R,I,,R
+79,629,sarcastic,"I think it would've been apparent that Phillip had a distaste for the jacket, especially with the mumbled scoff, so I think Eric would probably see it as sarcastic.",1,c,5c,,R,I,,I
+79,630,sarcastic,"He'd just seen them arguing and probably assumed they don't get along very well, so he might well think he is being sarcastic.",1,a,6a,,R,R,,R
+79,631,sarcastic,"As Ken hasn't spoken to her since the break up, he will probably not know that they have remained friends and therefore assume she is being sarcastic.",1,a,7a,,R,R,,R
+79,632,sincere,"She has no reason to doubt it, and although it is short and in no way, elaborate, I don't feel she would have reason to think it was anything but sincere.",1,b,8b,,R,R,,R
+80,633,sincere,"if she always loved to do things in the same way before, there's no reason to think this time is different",0,c,1c,,R,I,,O
+80,634,sarcastic,you can't lift a cow,0,a,2a,,D,O,,O
+80,635,sincere,he has no reason to think the opposite as he isn't aware of his mistake,0,c,3c,,R,R,,R
+80,636,sincere,people have different tastes and aversions,0,a,4a,,S,O,,O
+80,637,sincere,eric has no reason to think that particular brand is bad,0,b,5b,,R,R,,R
+80,638,sarcastic,he's just seen them fight,0,c,6c,,R,R,,R
+80,639,sincere,sometimes fights don't change feelings,0,b,7b,,O,O,,O
+80,640,sincere,elizabeth gave her no reason to think the opposite,0,a,8a,,R,R,,R
+81,641,sincere,I think as old friends Alice would want Olivia to be happy and may have decided that imitation is the sincerest form of flattery,0,c,1c,,S,I,,S
+81,642,sincere,She's hit a PR which would be helping her through her pain.,0,a,2a,,S,R,,S
+81,643,sarcastic,"I think the word ""sweet"" applied to Jack who has sent a salty cake, is pretty sarcastic!",0,c,3c,,D,D,,D
+81,644,sarcastic,No-one can imagine that someone would not like their dog.,0,a,4a,,O,O,,O
+81,645,sarcastic,There would have been clues that the jacket was not admired.,0,b,5b,,R,I,,I
+81,646,sincere,The arguments would be everyday and unremarkable to the brothers and they would be surprised when others took them more seriously.,0,c,6c,,S,I,,S
+81,647,sincere,Borderline but if she felt otherwise she could have said so,0,b,7b,,O,O,,O
+81,648,sarcastic,"It's a very restrained comment to make after several weeks together and she may have had wind that something was up,",0,a,8a,,D,D,,D
+82,649,sincere,"Given she seems unaware there's no reason to suspect sarcasm, nor would that be likely in this sentence as it'd be hurtful",0,c,1c,,O,R,,R
+82,650,sincere,"Again, nothing to indicate sarcasm based on the context",0,a,2a,,O,O,,O
+82,651,sincere,Without knowing the cake is salty there's no reason to suspect the comment isn't meant as stated. Even with that knowledge it wouldn't necessarily be sarcasm,0,c,3c,,R,R,,R
+82,652,sincere,"Again, no reason to suspect sarcasm, nor is it intended as",0,a,4a,,R,O,,O
+82,653,sincere,The comment was intended as scorn rather than purely sarcasm but since fashion is subjective as hell and Eric likes the jacket and nobody is that much of a dick after a job interview I'd assume he'd interpret it sincerely,0,b,5b,,R,I,,R
+82,654,sincere,I don't know how old people are in elementary school but presumably below the age where you'd expect an understanding of sarcasm,0,c,6c,,O,O,,O
+82,655,sincere,This one would be mostly down to the tone of delivery so since she's being genuine there's no reason to suggest it'd be interpreted as sarcastic,0,b,7b,,S,D,,S
+82,656,sincere,With no other context there's no reason to suspect sarcasm,0,a,8a,,R,O,,R
+83,657,sincere,"They are friends, I wouldnt expect my friend to be annoyed just because we both have bangs. I think it's a weak reason to be annoyed at a lifelong friend.",1,b,1b,,S,I,,O
+83,658,sarcastic,"It's a flippant, light-hearted tone. Clearly exaggeration, and she's just excited about her fitness progress.",1,c,2c,,D,D,,D
+83,659,sincere,"I'm assuming he doesn't know he mixed up the sugar with salt. He has no reason to think she isn't appreciative of his efforts, even if he isn't the best cook.",1,a,3a,,R,R,,R
+83,660,sincere,"Bulldogs have a reputation, and it's not a light hearted thing you might say in jest or as a joke. ",1,b,4b,,O,I,,O
+83,661,sincere,"Would have no reason to doubt the sincerity of the statement, unless he's privy to the feud, but if he was he surely would have avoided wearing the brand to the interview.",1,c,5c,,R,R,,R
+83,662,sarcastic,"Although they get on generally, the fact that they just got into a fight in front of David means that in that moment Jeremy probably isn't feeling very favourable towards his brother so the comment doesn't seem sincere.",1,a,6a,,R,I,,S
+83,663,sarcastic,"Hasn't spoken to her since the breakup, so is probably unaware that they are still close. It's unusual for ex partners to be close, so he would probably assume it was a sarcastic comment.",1,a,7a,,R,R,,R
+83,664,sincere,"Elizabeth would have no reason to think that May would be feeling resentful about the trip, or what had gone on there. 'It was nice' seems sincere, if a little blunt.",1,b,8b,,R,R,,R
+84,665,sincere,She doesn't know Alice's real life reaction and can only take her opinion from her text. Which case Olivia thinks Alice approves of it.,1,b,1b,,R,R,,R
+84,666,sincere,Catherine is using a simile to describe how she's feeling.,1,c,2c,,S,O,,S
+84,667,sincere,He doesn't know that he messed up the ingredients therefore he believes the text is sincere.,1,a,3a,,R,R,,R
+84,668,sincere,Its her personal opinion.,1,b,4b,,S,O,,S
+84,669,sincere,Eric doesn't know the circumstance of which his jacket has on Phillip,1,c,5c,,R,R,,R
+84,670,sarcastic,"From David's point of view, he would think Jeremy doesn't like Spencer much therefore his interpretation would be sarcastic",1,a,6a,,R,R,,R
+84,671,sincere,"despite their past, she still has a place in her heart for him.",1,a,7a,,S,I,,S
+84,672,sincere,Its a very basic reply and will most likely assume that May is enjoyed herself.,1,b,8b,,D,D,,D
+85,673,sincere,There is no cause to think it is sarcasm,1,b,1b,,R,O,,O
+85,674,sincere,It is a positive response that shows she is happy with the workout.,1,c,2c,,S,D,,S
+85,675,sincere,"Although the cake was not good, she is trying to spare Jack's feelings.",1,a,3a,,S,S,,S
+85,676,sincere,She is genuinely scared by the dog.,1,b,4b,,S,S,,S
+85,677,sincere,"Even though Philip was lying, there is no reason for Eric to suspect that, so he would not tale the comment as sarcasm.",1,c,5c,,R,R,,R
+85,678,sincere,"An argument would not mean Jeremy hated Spencer, so it is sincere.",1,a,6a,,R,I,,I
+85,679,sincere,The reply is not acerbic enough to be sarcasm.,1,a,7a,,D,D,,D
+85,680,sincere,There was no bitterness or edge in the reply,1,b,8b,,D,D,,D
+86,681,sincere,Olivia would have taken her friend's comment at face value,1,b,1b,,R,I,,R
+86,682,sincere,"Jane would have no reason to think otherwise, seemingly Catherine did not pick up Jane's concerns",1,c,2c,,R,R,,R
+86,683,sincere,Anastasia would have tasted the salt content but apparently did not want to upset Jack.  But the use of the word 'sweet' in the text could mean a slight hint of sarcasm.,1,a,3a,,S,S,,S
+86,684,sincere,Margaret was being honest I feel based on her previous experience,1,b,4b,,S,S,,S
+86,685,sarcastic,"In this situation Phillip had no need to respond at all to the thank you note, why mention the jacket at all unless he was trying to make a point,",1,c,5c,,D,O,,O
+86,686,sincere,"Although he witnessed the argument, David has no need to question Jeremy's sincerity",1,a,6a,,R,O,,R
+86,687,sincere,"Ana had no need for sarcasm, just stating a fact.",1,a,7a,,S,O,,S
+86,688,sincere,"Rather than being sarcastic, May was just providing little information",1,b,8b,,S,O,,S
+87,689,sincere,"because they have remained friends ,her friend must not have hurt her extremely often",2,a,1a,,I,O,,O
+87,690,sarcastic,"because she's not able to lift a cow,it's meant for comedic effect",2,b,2b,,D,O,,O
+87,691,sincere,"she's trying to be nice,""aren't you so sweet!'",2,b,3b,,D,S,,S
+87,692,sincere,Margaret has  strong aversion to bulldogs because of a traumatic incident,2,c,4c,,S,S,,S
+87,693,sincere,because it was a reply to a thank you note,2,a,5a,,D,O,,O
+87,694,sincere,"because Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person,which was probably included in the letter",2,b,6b,,I,R,,I
+87,695,sarcastic,because he may only know about the very dramatic fight & nothing since then,2,c,7c,,R,R,,R
+87,696,sincere,the trip was enjoyable up to the point of going home,2,c,8c,,S,O,,S
+88,697,sincere,The reply is very expressive and doesn't hint at any sarcasm.,1,b,1b,,D,D,,D
+88,698,sarcastic,No one lifts a cow unless it's unavoidable.,1,c,2c,,D,O,,O
+88,699,sincere,Jack doesn't know he made a mistake so there's no reason for him to not take it as sincerity.,1,a,3a,,R,R,,R
+88,700,sarcastic,Margaret calling a cute dog scary when Julia is used to hearing that the dog is cute can probably sound like sarcasm.,1,b,4b,,R,I,,R
+88,701,sincere,Eric doesn't know about Phillips past regarding the brand.,1,c,5c,,R,R,,R
+88,702,sarcastic,"He's witnessed them arguing, so assumes that they have a bad relationship.",1,a,6a,,R,R,,R
+88,703,sincere,The fact that Ana is still regularly talking to her ex probably is an indication to Ken that she is being genuine.,1,a,7a,,I,S,,I
+88,704,sincere,Nothing in her response indicates sarcasm.,1,b,8b,,D,O,,D
+89,705,sincere,Alice is being nice to her friend and not saying how she really feels.,1,b,1b,,S,S,,S
+89,706,sincere,The response is based on genuine enthusiasm.,1,c,2c,,S,O,,S
+89,707,sincere,Anastasia is beng kind and taking into account the lack of cooking skills of her friend.,1,a,3a,,S,S,,S
+89,708,sincere,The response does represent the feelings of Margaret and is quite genuine.,1,b,4b,,S,O,,S
+89,709,sarcastic,Phillip does not like this jacket and his response is most likley sarcastic.,1,c,5c,,S,S,,S
+89,710,sincere,The brothers are quite close and the sentiment the letter seems to be genuine.,1,a,6a,,S,O,,S
+89,711,sincere,There seems to be no bad feeling between the former couple and the response is probably quite sincere.,1,a,7a,,S,I,,S
+89,712,sincere,May was probaby not feeling so positive about the trip. Her response to the question was not totally honest but she did not want to provide personal information.,1,b,8b,,S,S,,S
+90,713,sincere,"I think Olivia's replies was a genuine compliment. I don't seem to find any form of sarcasm in her response. Alice might not like the hairstyle, but it might look good on her still. ",2,a,1a,,S,D,,S
+90,714,sincere,Jane would read Catherine's message as trying to explain that she feels perfectly well enough to gym and she doesn't need to worry about her,2,b,2b,,O,I,,I
+90,715,sincere,"I think Anastasia recognizes Jack does not bake, but she appreciates his effort.",2,b,3b,,S,S,,S
+90,716,sarcastic,"Margaret respond was sarcastic because of her experience with bulldogs. She probably is telling Julia that no matter how cute your puppy is, I hate dogs!!!",2,c,4c,,S,S,,S
+90,717,sarcastic,Lols...that was obviously a sarcastic remark as Phillip didn't like the jacket. He showed that when he scoffs after seeing the jacket during the interview.,2,a,5a,,S,S,,S
+90,718,sincere,I think Spencer genuinely mean what he said about Spencer in the letter as he enjoys his company. Children always fight and makeup.,2,b,6b,,S,S,,S
+90,719,sincere,"Ana genuinely believe that James is a good person as the is still fond of him, and still made him her good friend.",2,c,7c,,S,S,,S
+90,720,sincere,"Even though she did not eventually express her love to Kate, I think she genuinely enjoyed the trip. Their conversation and time spent together during the trip was obviously enjoyable. Her remark about Kate was sincere.",2,c,8c,,S,I,,S
+91,721,sincere,"Although she may dislike it and not mean what she is saying, that is not what sarcasm is. The text is not different from the reply you would get from someone being sincere, and there is no way for Olivia to know without more context that she is not being genuine.",1,b,1b,,R,O,,R
+91,722,sincere,"Catherine is expressing her genuine feelings, even though Jane might not like what is being expressed.",1,c,2c,,S,O,,S
+91,723,sincere,"Anastasia is lying to protect his feelings, not being sarcastic. The aren't you so sweet part is clearly indicates this.",1,a,3a,,S,S,,S
+91,724,sarcastic,"This is somewhat difficult to determine, as it would depend on Julia having knowledge of Margaret's phobia to understand it is genuine. Most people reading a text of 'your dog is so scary' about a small puppy would assume you were being ironic /sarcastic without further information/context.",1,b,4b,,R,D,,R
+91,725,sincere,"Eric has no knowledge of Philips history/issues, so no reason to doubt the message is genuine. ",1,c,5c,,R,R,,R
+91,726,sincere,"This is very difficult to determine, but probably on balance even if he had witnessed a fight between them, David would assume Jeremy was being genuine, and it was a one off. You would probably need more obvious or additional tonal evidence in the rest of what someone had written, to assume/infer they are being sarcastic. ",1,a,6a,,R,O,,R
+91,727,sincere,"This is finely balanced, but as with the previous answer, while you might consider the possibility they are being sarcastic, without additional writing in the same tone around it, you would not assume on balance that this is sarcasm.",1,a,7a,,R,O,,R
+91,728,sincere,"Nothing about it was nice implies sarcasm. Her friend might think she is holding something back or not being fully truthful, but you would not think of this as sarcasm.",1,b,8b,,D,D,,D
+92,729,sincere,"Gesture and facial expression are not in the words, so Olivia is more likely to take the words at face value and believe what Alice has written.",0,c,1c,,R,D,,R
+92,730,sincere,"Gesture and facial expression are not in the words, so Jane is more likely to take the words at face value and believe what Catherine has written.",0,a,2a,,R,D,,R
+92,731,sincere,"Gesture and facial expression are not in the words, so Jack is more likely to take the words at face value and believe what Anastasia has written.",0,c,3c,,R,D,,R
+92,732,sincere,"Puppies are not usually scary or scary-looking, so Julia might think that Margaret is being jokey in a sarcastic kind of way.",0,a,4a,,R,I,,R
+92,733,sincere,"The jacket has nothing to do with the job, so Eric might interpret Phillip pointing it out as disrespectful.",0,b,5b,,D,I,,D
+92,734,sarcastic,"Having witnessed the fight between the brothers, David might interpret the statement as a negative rather than a positive comment.",0,c,6c,,R,R,,R
+92,735,sincere,"Even though she and Ken haven't spoken, he knows her well enough to believe her statement.",0,b,7b,,I,I,,I
+92,736,sarcastic,Not so much sarcastis as guarded because of how the break ended compared to how it began.,0,a,8a,,S,I,,S
+93,737,sincere,OLIVIA WOULD HAVE INTERPRETED ALICES REPLY AS SINCERE AS THEY HAVE BEEN LIFELONG FRIENDS AND WOULD ASSUME SHE WAS GENUINE,1,b,1b,,R,I,,R
+93,738,sincere,i think jane would interpret catherines message as sincere as she is expressing her joy at being able to be successful at her gym class,1,c,2c,,S,S,,S
+93,739,sarcastic,i think jack knows his cooking is poor and would realise anastasia is being jokey especially your so sweet comment,1,a,3a,,I,I,,I
+93,740,sarcastic,i think julia would interpret margarets comments as sarcastic as the bull dog puppy would not look lightly to be scary,1,b,4b,,R,I,,R
+93,741,sincere,i think eric would have interpreted philips reply as sincere as he would have had no prior knowledge of philips issues with the brand in question,1,c,5c,,R,R,,R
+93,742,sarcastic,i think david believes that jememy is  being sarcastic as he saw the two brothers fighting in front of him,1,a,6a,,R,R,,R
+93,743,sarcastic,i think ken would interpret ana text as sarcastic as last he knew ana and james broke up very dramatically,1,a,7a,,R,R,,R
+93,744,sincere,i think elizabeth would have interpreted mays text as sincere as she would not know of mays heartache,1,b,8b,,R,R,,R
+94,745,sarcastic,She is being sarcastic because she has the same hair style,1,b,1b,,S,O,,S
+94,746,sincere,She sounded more concerned than anything,1,c,2c,,O,D,,D
+94,747,sincere,"Does not sound like sarcasm, it just seems more like she is being thankful",1,a,3a,,D,O,,S
+94,748,sincere,"She had a bag experience with this breed, so naturally is scared of it.",1,b,4b,,S,S,,S
+94,749,sarcastic,He did not like the jacket with his outfit based on that i would say he is being sarcastic.,1,c,5c,,S,S,,S
+94,750,sincere,Seems like he loves his brother,1,a,6a,,S,S,,S
+94,751,sincere,Seems to still like James,1,a,7a,,S,S,,S
+94,752,sincere,"Does not sound like she is being sarcastic, she enjoyed the trip until a point.",1,b,8b,,S,O,,S
+95,753,sincere,They are lifelong friends so I think they would always say they like something the other has done even if they don't.,1,b,1b,,I,I,,I
+95,754,sarcastic,"Cow's weight a lot, she was just saying that she feels very strong and ready to train. ",1,c,2c,,D,O,,S
+95,755,sarcastic,She's likely saying hinting that the cake should be sweeter.,1,a,3a,,S,S,,S
+95,756,sincere,Margaret isn't a dog person and for sure not a bulldog person so I think Julia would have heard in Margaret's voice that she was being serious.,1,b,4b,,D,S,,I
+95,757,sincere,Eric didn't know that Phillip has an issue with the brand that the jacket was.,1,c,5c,,R,R,,R
+95,758,sincere,They are bothers so I think David would understand that sometimes siblings fall out but they are family.,1,a,6a,,R,I,,I
+95,759,sincere,They still talk fairly regularly so they must still like each others company but work better as friends.,1,a,7a,,S,I,,S
+95,760,sincere,Elizabeth wasn't on the trip so she more that likely wouldn't have thought anything different.,1,b,8b,,R,R,,R
+96,761,sincere,Nothing in her text suggests otherwise.,1,b,1b,,D,D,,D
+96,762,sincere,Nothing sacrcastic about her text. The just exaggerated to convey how enthused she was.,1,c,2c,,D,D,,D
+96,763,sincere,Jack was unaware that he made a mistake.,1,a,3a,,R,R,,R
+96,764,sarcastic,"Possibly sarcastic because most of her friends think the dog is ""very cute"".",1,b,4b,,R,R,,R
+96,765,sincere,Eric was unaware of Philip's argument with the clothing brand boss,1,c,5c,,R,R,,R
+96,766,sincere,""" Jeremy genuinely enjoys spending time with Spencer and thinks that he is a good person""",1,a,6a,,S,S,,S
+96,767,sincere,"""Ana still genuinely thinks that James is a good person""",1,a,7a,,S,S,,S
+96,768,sincere,Simple answer to a simple question.,1,b,8b,,O,D,,O
+97,769,sincere,Both being best friends Olivia would not do anything to make Alice feel insecure about herself. Olivia has gotten this new haircut because she is following Alice's lead unknowing what she really feels inside. So Olivia would take the reply as sincere.,0,c,1c,,R,R,,R
+97,770,sarcastic,"Jane is worried for Catherine and the fact that in Catherine's reply she used a hyperbole, edges on the idea that Jane would take the message more sarcastically.  ",0,a,2a,,D,D,,D
+97,771,sincere,"Jack is unbeknownst to the fact that he messed up the cake, so he would think that the message was sincere.",0,c,3c,,R,R,,R
+97,772,sarcastic,"This is a hard one to choose. Julia's friends think that her dog is cute, so already she has the mind set that people like her dog. For Margaret to respond with an exclamation sentence, makes it seem more sarcastic than sincere to Julia.",0,a,4a,,R,D,,D
+97,773,sincere,For Eric to wear that jacket to an interview means to values it deeply. For someone to make a judgement on it he would have an automatic bias and immediately think of the comment as flattering and nice.,0,b,5b,,R,R,,R
+97,774,sarcastic,"David does not know how Jeremy and Spencer behave when they are at home. The fact that they got into a heated argument in front of him, makes him think differently of them",0,c,6c,,R,R,,R
+97,775,sincere,If they Ken knew that their relationship ended with a dramatic fight then Ken would think that Ana would have nothing good to say about James. However her response was in contrast. And I believe Ken should see that Ana has very little motive to speak good of James if they fought.,0,b,7b,,O,R,,I
+97,776,sincere,"May kept her feelings to herself, no one knows anything.",0,a,8a,,R,R,,R
+98,777,sarcastic,Olivia knows Alice well and is aware that she doesn't like bangs.,2,a,1a,,I,I,,I
+98,778,sincere,Jane understands that Catherine is dedicated enough to use the gym despite the back injury. Catherine feeling pumped after visiting the gym isn't unexpected.,2,b,2b,,I,I,,I
+98,779,sincere,Jack made an honest mistake while trying his best and would be unable to interpret the text as sarcasm.,2,b,3b,,R,R,,R
+98,780,sincere,Julia (the new coworker) and Margaret are unfamiliar; Julia may doubt due to the dog being a puppy but would err on Margaret being sincere. If it where one of Julia's friends it may be readily read as sarcasm.,2,c,4c,,R,I,,R
+98,781,sincere,"The ego is blind. Although there is a chance that Eric was looking for a reaction, for whatever reason, and would see it as sarcasm.",2,a,5a,,R,R,,R
+98,782,sarcastic,David has only seen them arguing.,2,b,6b,,R,R,,R
+98,783,sincere,"""What she really thinks"" suggest that Ken is looking for an alternative to their currently held perspective. Alternatively, it's been long enough that Ken would see it as sincere and then remind Ana about the dramatic fight.",2,c,7c,,I,I,,I
+98,784,sincere,"Elizabeth doesn't know what happened, although as her friend she may press for more detail after hearing that it was ""nice"".",2,c,8c,,R,R,,R
+99,785,sincere,because they have been friends for so long Alice is happy to boost Olivia with the compliment.,2,a,1a,,S,I,,S
+99,786,sincere,"Catherine is in full recovery and feeling great, this reply does not sound sarcastic to me.",2,b,2b,,S,S,,S
+99,787,sarcastic,Confusing salt with sugar gives the answer aren't you so sweet as sarcastic remark not sincere.,2,b,3b,,D,O,,D
+99,788,sincere,Margaret has a clear fear of dogs and is sincere in her response to Julia.,2,c,4c,,S,S,,S
+99,789,sincere,I believe Eric would find the reply sincere as he doesn't know Phillip enough to gauge his sarcasm,2,a,5a,,R,R,,R
+99,790,sarcastic,This is how kids/teens behave and give banter at every opportunity in order to break the ice with others they do not know very well.,2,b,6b,,O,I,,O
+99,791,sarcastic,"Nothing says to me that Ana is anything but sincere, however, Ken would know this since he hasn't spoken with Ana since the breakup.",2,c,7c,,R,O,,R
+99,792,sarcastic,The trip was ruined to the point that May had had enough to the point that sincerity went out the window.,2,c,8c,,S,O,,S
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,R,319,
+,,,,,,,,,S,223,
+,,,,,,,,,D,79,
+,,,,,,,,,I,61,
+,,,,,,,,,O,106,
+,,,,,,,,,N,4,

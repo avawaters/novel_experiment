@@ -12,8 +12,9 @@ output: html_notebook
   library(stringr)
   library(lme4)
   library(ggeffects)
-  #library(effects)
   library(sjPlot)
+  library(scales)
+  library(reshape2)
 ```
 
 ```{r load experimental data, include=FALSE}
@@ -133,6 +134,66 @@ ggplot(simple.graph, aes(x = factor(embed_level, level = level_order), y = avera
 ```{r Show Mixed Regression model, echo=FALSE}
 summary(mixed.lmer)
 ```
+
+# Discussion
+
+```{r load data, include=FALSE}
+raw.data <- read.csv("categorized_data.csv")
+totals.data <- read.csv("totals_data.csv")
+```
+
+```{r organize raw data, include=FALSE}
+raw.data.organized <- raw.data %>%
+  select(subject, code, embed_level) %>%
+  group_by(embed_level, code, subject) %>%
+  mutate(totals=n()) %>%
+  select(code, embed_level, totals, subject) %>%
+  distinct %>%
+  drop_na() %>%
+  pivot_wider(names_from=code, values_from=totals)
+
+raw.data.organized[is.na(raw.data.organized)] <- 0
+```
+
+```{r categories by embed level anova, include=FALSE}
+S.by.lvl.ANOVA <- ezANOVA(raw.data.organized, dv=S, wid=subject, within=.(embed_level) )
+S.by.lvl.ANOVA$ANOVA
+R.by.lvl.ANOVA <- ezANOVA(raw.data.organized, dv=R, wid=subject, within=.(embed_level) )
+R.by.lvl.ANOVA$ANOVA
+```
+
+```{r rename values in totals data, include=FALSE}
+totals.data["Level.of.Embeddedness"][totals.data["Level.of.Embeddedness"] == "a"] <- "Least Embedded" 
+totals.data["Level.of.Embeddedness"][totals.data["Level.of.Embeddedness"] == "b"] <- "Somewhat Embedded" 
+totals.data["Level.of.Embeddedness"][totals.data["Level.of.Embeddedness"] == "c"] <- "Most Embedded" 
+```
+
+The goal of our study was to examine whether narrative embeddedness, or the extent to which readers have access to perspective-irrelevant information, relates to their tendency to project that information to other perspectives that do not have it. To test our hypothesis, we compared the average percentage of questions that the participants did not give a correct answer to across the three categories (least, somewhat and most embedded). We did not find a main effect for interaction between level of embeddedness and percentage of incorrectly answered questions, as percentages across categories were pretty similar: 40.3% for least embedded, 35.3% for somewhat embedded and 43.1% for most embedded. The percentage for mistakes that participants made in the least embedded scenarios was higher than that for the somewhat embedded scenarios, but not significantly. Most importantly, the percentage for most embedded, which we hypothesized to be the lowest, turned out to be the highest. Analysis of the results showed that the extent to which participants were embedded in a scenario did not influence their performance on the comprehension questions. That points to no significant effect of the curse of knowledge, which claims that the more information a reader has about a perspective, the harder it is for them to step out of that perspective.
+
+Our research also includes a part where participants explained their rationales of their answers. To better analyze the qualitative data collected, we looked through all explanations and placed them in different categories, which are described below.
+
+    S. These explanations focus on information that the character sending the message knows, and will often cite details from the story regarding how the sender feels or what the sender is thinking. For instance, if the participant cites “A will think the message as sarcastic because B, the sender, intends to be sarcastic”, such an explanation will be categorized as “S.”
+
+    R. Explanations categorized as “R” use information in the story that is from the perspective of the person receiving the message. For instance, if the participant cites “A will think the message as sincere because A has no way of knowing B, the sender, intends it to be sarcastic”, such an explanation will be categorized as “R”. 
+
+    D. Explanations categorized as “D” focus on the details about how the message is delivered. For instance, if the participant asserts “it is sarcastic because the three exclamation marks after the phrase ‘omg’ is just fake”, such an explanation will be categorized as “D”. 
+
+    I. These explanations use information that the receiver of the message might have access to even though this information was not explicitly mentioned in the story. For example, a participant might suggest that the sender and the receiver of the message had communicated with each other in some other situation that was not in the story.
+
+    O. These explanations are those that do not directly answer the    question. For example, if the participant claims “this is not sarcasm, this is hyperbole”, such an explanation will be categorized as “O”.
+
+    N. These explanations are nonsensical responses that do not make any sense. For instance, “fewqer324” would be categorized as “N”.
+
+Note that the key focus of our experiment are the “S” and “R” categories. An explanation in the “S” category suggests that the participant has attributed knowledge that only the sender of the message has to the receiver of the message, because they are using this information to explain why the receiver would interpret the message a certain way. An explanation in the “R” category suggests that the participant did not make such an error, and instead focused on the information that the receiver of the message actually has access to in that scenario. The frequencies of each category of explanation for each level of embeddedness are shown below. 
+
+```{r create graph of totals for each embeddedness level, echo=FALSE}
+ggplot(totals.data, aes(x=Explanation, y=Number.of.answers)) + geom_bar(stat="identity") + facet_wrap(~Level.of.Embeddedness)+labs(x="Category of Explanation", y="Total Number of Explanations") + geom_hline(yintercept=0) + theme_minimal()+ ggtitle("Frequency of Each Explanation Type for Each Level of Embeddedness") + theme(panel.grid = element_blank()) 
+```
+
+Given our original hypothesis that higher levels of embeddedness would increase the likelihood that a participant would project privileged information onto the receiver, we expected that questions with higher levels of embeddedness would have more responses in the “S” category (the “incorrect” source of information), and that questions with lower levels of embeddedness would have more responses in the “R” category (the “correct” source of information) . A one-way ANOVA indicated that there was no significant effect of embeddedness level on the number of explanations that were categorized as "S" F(`r S.by.lvl.ANOVA$ANOVA$DFn%>%signif(3)`, `r S.by.lvl.ANOVA$ANOVA$DFd %>%signif(3)`)=`r S.by.lvl.ANOVA$ANOVA$F%>%signif(3)` , *p*= `r S.by.lvl.ANOVA$ANOVA$p%>%signif(3)`. An additional ANOVA with the number of explanations categorized as "R" also found no significant effect of embeddedness F(`r R.by.lvl.ANOVA$ANOVA$DFn%>%signif(3)`, `r R.by.lvl.ANOVA$ANOVA$DFd%>%signif(3)`)=`r R.by.lvl.ANOVA$ANOVA$F%>%signif(3)` , *p*= `r R.by.lvl.ANOVA$ANOVA$p%>%signif(3)`.  
+
+As they relate to our hypothesis, these findings suggest that level of embeddedness had no effect on information projection. Alternatively, it is possible that the scenarios created for this experiment did not effectively operationalize different levels of narrative embeddedness. We defined level of embeddedness as the extent to which the reader is immersed in the perspective of the character who is sending the message. In order to create stories with different levels of embeddedness, we varied the amount of narrative detail that was given about the sender of the message and their relationship to the overall narrative. It is possible that focusing on a certain kind of detail, such as the emotions or the directly quoted thoughts of the character, among other possibilities, would have produced an effect of embeddedness. Additionally, introducing a greater amount of variability in the level of detail between levels of embeddedness, for example by comparing the effect of a few sentences with that of a short story, might also have produced a significant result. However, our overall pattern of results suggests that level of narrative embeddedness has no effect on information projection.
+
 
 # References
 Frith, C., & Frith, U. (2005). Theory of mind. Current biology, 15(17), R644-R645.

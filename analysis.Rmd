@@ -1,5 +1,6 @@
 ---
 title: "Effect of Narrative Embeddedness on Information Projection"
+author: Mira Genkovska, Ava Waters, Zach Watson, Lily Yan, Yuchen Zhou
 output: html_notebook
 ---
 # Introduction
